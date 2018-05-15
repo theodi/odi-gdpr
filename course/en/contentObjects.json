@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "5af2b28e0b08723b05bb1e26",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg"
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "GDPR Module",
+    "title": "GDPR Module",
+    "_aboutPage": {
+      "_items": [],
+      "SL_text": "",
+      "aboutCredit": ""
+    },
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_FooterLink": {
+      "_items": []
+    }
+  },
+  {
+    "_id": "5afa9cc920c1982f0596879e",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_parentId": "course",
+    "_type": "page",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "_classes": "hidden",
+    "body": "<p>Are you ready for the GDPR? Test your knowledge with this quiz, Get 8/10 to pass.</p>",
+    "displayTitle": "The GDPR: Test your knowledge",
+    "title": "The GDPR: Test your knowledge",
+    "_aboutPage": {
+      "_items": [],
+      "SL_text": "",
+      "aboutCredit": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    },
+    "_FooterLink": {
+      "_items": []
+    }
+  }
+]
