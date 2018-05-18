@@ -1,29 +1,12 @@
 [
   {
-    "_id": "5af3099f0b08723b05bb1e7b",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5af3099f0b08723b05bb1e7a",
-    "body": "",
-    "displayTitle": "Dealing with data breaches",
-    "title": "Dealing with data breaches",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
     "_id": "5af2d26b0b08723b05bb1e4d",
     "_layout": "left",
     "_type": "component",
     "_parentId": "5af2b9a90b08723b05bb1e2d",
     "body": "",
-    "displayTitle": "Why do we need the GDPR?",
-    "title": "Why do we need the GDPR?",
+    "displayTitle": "What exactly is the GDPR?",
+    "title": "What exactly is the GDPR?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "inverted color-one",
@@ -34,735 +17,136 @@
     "instruction": ""
   },
   {
-    "_id": "5af2f4850b08723b05bb1e65",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5af2f4850b08723b05bb1e64",
-    "body": "",
-    "displayTitle": "More control over data about you",
-    "title": "More control over data about you",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "5af2f2c50b08723b05bb1e5f",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5af2f2c50b08723b05bb1e5e",
-    "body": "",
-    "displayTitle": "The effects of the GDPR",
-    "title": "The effects of the GDPR",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "5afa9cca20c1982f05968817",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687c5",
-    "_type": "component",
-    "body": "<p>Under what circumstances is it acceptable to transfer an individual&rsquo;s personal data to another country outside of the EU?</p>",
-    "displayTitle": "International transfers",
-    "title": "International transfers",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select two answers then click 'submit'",
-    "_items": [
-      {
-        "text": "In order to help process the data, eg on cloud servers",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "When it is absolutely necessary to fulfil the lawful basis",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "When the individual has explicitly consented for their data to be transferred to this country",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "When it is in the general interest of the individual",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 2,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR makes it much easier to transfer data within&nbsp;the EU.</p><p>Transfers outside of the EU may be made:</p><ul><li>to locations&nbsp;the European Commission has decided an adequate level of protection is afforded</li><li>to organisations where appropriate protection is afforded through contractual clauses</li><li>with the individual&#39;s informed consent</li><li>where it is absolutely necessary for the fulfilment of the lawful basis</li></ul>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR makes it much easier to transfer data within&nbsp;the EU.</p><p>Transfers outside of the EU may be made:</p><ul><li>to locations&nbsp;the European Commission has decided an adequate level of protection is afforded</li><li>to organisations where appropriate protection is afforded through contractual clauses</li><li>with the individual&#39;s informed consent</li><li>where it is absolutely necessary for the fulfilment of the lawful basis</li></ul>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968815",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687c3",
-    "_type": "component",
-    "body": "<p>What is wrong with the privacy notice shown here?</p>",
-    "displayTitle": "Privacy notices",
-    "title": "Privacy notices",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select three answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Not clear who personal information will be shared with",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Marketing should be opt-in, not out",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Very small print",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Too short",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "A link to this training should be included",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 3,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>This is an example of a particularly bad privacy notice. There is a mix of confusing language, incorrect terminology and misleading information. Additionally the signature box is in the incorrect place. On top of everything outlined here, under the GDPR you must allow an electronic request for access to the data, and fulfil this with an electronic copy of the data, unless otherwise requested.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>This is an example of a particularly bad privacy notice. There is a mix of confusing language, incorrect terminology and misleading information. Additionally the signature box is in the incorrect place. On top of everything outlined here, under the GDPR you must allow an electronic request for access to the data, and fulfil this with an electronic copy of the data, unless otherwise requested.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968814",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687c2",
-    "_type": "component",
-    "body": "<p>What is wrong with the privacy notice shown here?</p>",
-    "displayTitle": "Privacy notices",
-    "title": "Privacy notices",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select three answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Not clear what a subject access request is",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "There cannot be a charge for the right to access",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "The signature box comes before the terms are complete",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Too short",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Not enough use of colour",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 3,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>This is an example of a particularly bad privacy notice. There is a mix of confusing language, incorrect terminology and misleading information. Additionally the signature box is in the incorrect place. On top of everything outlined here, under the GDPR you must allow an electronic request for access to the data, and fulfil this with an electronic copy of the data, unless otherwise requested.&nbsp;</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>This is an example of a particularly bad privacy notice. There is a mix of confusing language, incorrect terminology and misleading information. Additionally the signature box is in the incorrect place. On top of everything outlined here, under the GDPR you must allow an electronic request for access to the data, and fulfil this with an electronic copy of the data, unless otherwise requested.&nbsp;</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f0596880f",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687be",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">The GDPR introduces the right to data portability which gives individuals the right to:</p>",
-    "displayTitle": "Individual rights",
-    "title": "Individual rights",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select two answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Request a machine-readable copy of data held about them that they have provided",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Transfer data they have provided freely to another organisation",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Use their mobile data plan anywhere in the world",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Request their data be made available for sale",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 2,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR introduces a new data portability right <strong>&ndash;</strong> the right for an individual to receive personal data they have provided to the controller or that has been gathered automatically by the controller. This must be provided in a commonly used and machine readable format. Additionally the individual has the right to request that the data is transmitted directly to another controller.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR introduces a new data portability right - the right for an individual to receive personal data they have provided to the controller or that has been gathered automatically by the controller. This must be provided in a commonly used and machine readable format. Additionally the individual has the right to request that the data is transmitted directly to another controller.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f0596880a",
+    "_id": "5af2d9970b08723b05bb1e5b",
     "_layout": "right",
     "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687b5",
-    "body": "<p>If the service&nbsp;you are providing to an individual could be provided without collecting personal data then how does the lawful basis apply?</p>",
-    "displayTitle": "Establishing lawful basis for processing personal data",
-    "title": "Establishing lawful basis for processing personal data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "You can use the lawful basis to collection personal data anyway",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "It no longer applies and thus your collection and processing of personal data is unlawful (with the exception of consent)",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "You can collect the data just in case it becomes useful for any other lawful service",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR requires everyone to process personal data lawfully, fairly and in a transparent manner.</p><p>There are six lawful bases outlined in the GDPR and at least one must apply; without a lawful basis, it is illegal to collect and process the personal data.&nbsp;</p><p>Additionally, with the exception of consent, if you could reasonably perform your tasks without collecting the personal data then the lawful basis does not apply.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR requires everyone to process personal data lawfully, fairly and in a transparent manner.</p><p>There are six lawful bases outlined in the GDPR and at least one must apply; without a lawful basis, it is illegal to collect and process the personal data.&nbsp;</p><p>Additionally, with the exception of consent, if you could reasonably perform your tasks without collecting the personal data then the lawful basis does not apply.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968809",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687b4",
-    "body": "<p>Which of the following services (that processes personal data) does the FCO have a legal obligation to provide?</p>",
-    "displayTitle": "Establishing lawful basis for processing personal data",
-    "title": "Establishing lawful basis for processing personal data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Freedom of Information requests",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Consular Assistance",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Newsletters",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The FCO is legally obliged to respond to requests for information. We have names and contact details of requesters to enable us to communicate with them. We are also required to ask for certain further personal details to verify the identities of those making Subject Access Requests.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The FCO is legally obliged to respond to requests for information. We have names and contact details of requesters to enable us to communicate with them. We are also required to ask for certain further personal details to verify the identities of those making Subject Access Requests.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968812",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687c1",
-    "_type": "component",
+    "_parentId": "5af2d9450b08723b05bb1e5a",
     "body": "",
     "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "inverted color-four",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Contract",
+        "body": "<p><strong>Is the processing necessary to comply with obligations under an existing contract the organisation has with the individual?</strong></p><p><strong>Has an individual asked you to take specific steps before entering into a contract?</strong></p><p>Take this example:</p><p><em>When you purchase something online, a controller processes your address so that the goods can be delivered. This is necessary to perform the contract.</em></p><p><em>On the other hand, profiling your&nbsp;interests and preferences based on the items you bought&nbsp;is not necessary for the performance of the contract and does not comply with this legal basis.</em></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": "<a href=\"https://www.flaticon.com/free-icon/locked_149462#term=secure&page=1&position=1\" target=\"_blank\">Flaticon</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Legal obligation",
+        "body": "<p><strong>Is the processing necessary for you to comply with legal obligation?</strong></p><p>Take this example:</p><p><em>As with every organisation, the ODI is required to&nbsp;process personal data to comply with its legal obligation to provide employee salary details to HMRC.&nbsp;Therefore this is a lawful basis for processing data.</em></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Vital interests",
+        "body": "<p><strong>Is the processing necessary to protect an individual&#39;s life?</strong></p><p>Take this example:</p><p><em>An ODI employee&nbsp;falls ill whilst at work and is taken to hospital. Staff records on the company asset register&nbsp;reveal that he/she has a pre-existing medical condition.&nbsp;These records are handed over to the hospital to protect his/her life.&nbsp;Therefore this is a lawful basis for processing data.</em></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Public tasks",
+        "body": "<p>In the ODI we often work with public&nbsp;sector organisations so it&#39;s useful to consider what advice we&nbsp;could provide.</p><p><strong>Is the processing necessary for you to perform a task in the public interest?&nbsp;</strong></p><p><strong>Is it necessary for you to perform your official functions (providing it has a clear lawful basis)?</strong></p><p>Take this example</p><p><em>Companies House registers&nbsp;company information and makes it available to the public. This means anyone can freely&nbsp;look up a company&#39;s profile, accessing&nbsp;the names, nationalities&nbsp;and dates of birth of any directors. This is a lawful basis for processing data.&nbsp;</em></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Legitimate interests",
+        "body": "<p><strong>Is the processing necessary for your legitimate interests&nbsp;ie&nbsp;to conduct business?</strong></p><p><strong>Is it necessary for the legitimate interests of a third party?&nbsp;</strong></p><p>Take this example:</p><p><em>With a number of external stakeholders involved in our projects like R&amp;D,&nbsp;we keep contact information up to date on our Customer Relationship Manager (CRM). This means we can send project outputs as and when required. This&nbsp;is a lawful basis for processing data.&nbsp;</em></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Consent",
+        "body": "<p><strong>Has the individual given clear consent for you&nbsp;to process personal data about them for a specific purpose?</strong></p><p>Take this example:</p><p><em>In last year&#39;s R&amp;D peer-to-peer accommodation project we&nbsp;interviewed members of the public about renting&nbsp;accommodation on Airbnb. All&nbsp;interviewees were required to sign&nbsp;a consent form for this.&nbsp;Therefore this is a lawful basis for processing data.</em></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "5afea225b1e3a61805eb4c4b",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5afea222b1e3a61805eb4ada",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
+      "small": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
+      "attribution": "<a href=\"http://theodi.org/\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_id": "5afee723b1e3a61805eb4f96",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5afee269b1e3a61805eb4f94",
+    "body": "",
+    "displayTitle": "Component title",
     "title": "Component title",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "small": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=836834&term=magnifying%20glass\" target=\"_blank\">Ibrandify / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968805",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687b1",
-    "_type": "component",
-    "body": "<p>What do &lsquo;special categories of personal data&rsquo; refer to?</p>",
-    "displayTitle": "Special categories of personal data",
-    "title": "Special categories of personal data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Data that could create more significant risks to a person's fundamental rights and freedoms",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Information about family grievance",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "User account passwords and other access keys",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>&lsquo;Special categories of personal data&rsquo; (previously referred to as sensitive personal data) merit higher protection as the context of their processing could create significant risks to fundamental rights and freedoms.</p><p>These categories include:</p><ul><li>Racial or ethnic origin</li><li>Political opinions</li><li>Religious or philosophical beliefs</li><li>Trade union membership</li><li>Genetic and biometric data (new in the GDPR)</li><li>Physical or mental health or conditions</li><li>Sex life or sexual orientation</li></ul>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>&lsquo;Special categories of personal data&rsquo; (previously referred to as sensitive personal data) merit higher protection as the context of their processing could create significant risks to fundamental rights and freedoms.</p><p>These categories include:</p><ul><li>Racial or ethnic origin</li><li>Political opinions</li><li>Religious or philosophical beliefs</li><li>Trade union membership</li><li>Genetic and biometric data (new in the GDPR)</li><li>Physical or mental health or conditions</li><li>Sex life or sexual orientation</li></ul>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687ed",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687c0",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "small": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=836834&term=magnifying%20glass\" target=\"_blank\">Ibrandify / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+      "large": "course/en/assets/484db8c2bdaed7a020ae10c7a958be8be7b3e4f1.png",
+      "small": "course/en/assets/484db8c2bdaed7a020ae10c7a958be8be7b3e4f1.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687ec",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687bf",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "small": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=836834&term=magnifying%20glass\" target=\"_blank\">Ibrandify / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687e3",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687b2",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/6b0815e5da4596e0ae1e03ee73c1ae48b74c18f4.jpg",
-      "small": "course/en/assets/6b0815e5da4596e0ae1e03ee73c1ae48b74c18f4.jpg",
-      "attribution": "<a href=\"http://www.freepik.com/free-vector/nice-people-avatars-in-flat-design_844761.htm#term=people&page=1&position=26\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687e2",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687b0",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
-      "small": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
-      "attribution": "<a href=\"https://pixabay.com/en/social-media-faces-photo-album-550767/\" target=\"_blank\">geralt</a> <span class='assetLicence'>[CC0]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968819",
+    "_id": "5afea225b1e3a61805eb4c56",
     "_layout": "full",
     "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687c7",
+    "_parentId": "5afea222b1e3a61805eb4adb",
     "body": "",
     "displayTitle": "How did you do?",
     "title": "How did you do?",
@@ -803,16 +187,86 @@
     ]
   },
   {
-    "_id": "5afa9cca20c1982f059687d6",
+    "_id": "5af30fad0b08723b05bb1e93",
     "_layout": "left",
-    "_parentId": "5afa9cc920c1982f059687a6",
     "_type": "component",
+    "_parentId": "5af30ddc0b08723b05bb1e91",
     "body": "",
-    "displayTitle": "What is the GDPR?",
-    "title": "What is the GDPR?",
+    "displayTitle": "What to do if the GDPR has been breached",
+    "title": "What to do if the GDPR has been breached",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/5722a3d3bfed4238e04a74c608e5aba0f1113e28.jpg",
+      "small": "course/en/assets/5722a3d3bfed4238e04a74c608e5aba0f1113e28.jpg",
+      "attribution": "<a href=\"http://www.freepik.com/free-vector/security-icon_1086687.htm#term=risk&page=1&position\" target=\"_blank\">Photoroyalty / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5afac6b020c1982f05968a3e",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5afac6a620c1982f05968a3d",
+    "body": "<p>Remember, just as change is a process rather than event, the ODI&#39;s implementation of the GDPR&nbsp;is an ongoing journey. At the ODI we lead by example and combine compliance with great innovation. We are all a part of helping the business to keep iterating and improving.</p><p>It&#39;s recommended that staff providing guidance and consulting externally should go beyond this module and follow up with&nbsp;some further reading. Speak to the policy team who can offer some great resources.&nbsp;</p><p><a class=\"button\" href=\"#/id/5afea220b1e3a61805eb4aba\" target=\"_self\">Take your assessment</a></p>",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5af31ca80b08723b05bb1ea8",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5af2c3450b08723b05bb1e37",
+    "body": "<p>In its simplest form, the General Data Protection Regulation&nbsp;aims to &#39;harmonise&#39; data privacy laws within the EU,&nbsp;modernising the legislation put into place by the&nbsp;Data Protection Act&nbsp;of&nbsp;1998. In a rapidly evolving data-led landscape, the GDPR&nbsp;introduces&nbsp;a robust compliancy framework focusing on the&nbsp;increased&nbsp;protection of fundamental rights and freedom of individuals.</p><p>But as&nbsp;the greatest shake up to privacy laws in some 20 years, the GDPR not only brings benefits to the individual&nbsp;consumer, but also&nbsp;promises to be a catalyst for data-led&nbsp;innovation.</p><p>Here at the Open Data Institute we are excited about taking a lead on this. Revised compliancy laws bring opportunities to build trust with clients, manage our data&nbsp;more efficiently and grow business initiatives.</p>",
+    "displayTitle": "",
+    "title": "What exactly is the GDPR?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Where does it apply?",
+        "body": "<p><strong>The GDPR applies to the processing of&nbsp;personal data about individuals in the European Union regardless of whether the organisation is located within the EU or not.&nbsp;</strong></p><p>Processing personal data covers the following, irrespective of how the data is collected:</p><p>collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "5afea223b1e3a61805eb4b68",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5afea221b1e3a61805eb4acb",
+    "body": "<p><strong>Who would you go to if you were worried&nbsp;the GDPR had been breached?</strong></p>",
+    "displayTitle": "Privacy best practice",
+    "title": "Privacy best practice",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "assessment",
     "_component": "mcq",
     "_pageLevelProgress": {
       "_isEnabled": true
@@ -820,18 +274,23 @@
     "instruction": "Select your answer then click 'submit'",
     "_items": [
       {
-        "text": "The GDPR is a new regulation that is designed to provide a greater level of protection of fundamental rights and freedoms of individuals through accountability and transparency",
+        "text": "Your line manager",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Our Data Protection Officer (DPO), Leigh Dodds",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "The policy team",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Any of the above",
         "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "A optional European Directive that organisations are choosing to implement",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "A means to decrease the amount of spam emails and calls people receive",
-        "_shouldBeSelected": false,
         "feedback": ""
       }
     ],
@@ -840,14 +299,14 @@
     "_canShowFeedback": true,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": true,
+    "_isRandom": false,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p dir=\"ltr\">The GDPR is a new regulation that is designed to provide&nbsp;a greater level of protection of fundamental rights and freedoms of individuals through accountability and transparency.</p><p dir=\"ltr\">Anyone who deals with personal data must be aware of what they can and cannot do with this data.</p>",
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>Any of the team members listed will be able to offer guidance on what to do next. Remember, it&#39;s important that you come forward if you think the GDPR has been breached as the company could be at risk of incurring significant&nbsp;non-compliance fines.&nbsp;</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p dir=\"ltr\">The GDPR is a new regulation that is designed to provide&nbsp;a greater level of protection of fundamental rights and freedoms of individuals through accountability and transparency.</p><p dir=\"ltr\">Anyone who deals with personal data must be aware of what they can and cannot do with this data.</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p>Any of the team members&nbsp;listed will be able to offer guidance on what to do next. Remember, it&#39;s important that you come forward if you think the GDPR has been breached as the company could be at risk of incurring significant non-compliance fines.&nbsp;</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -881,254 +340,13 @@
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687e1",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687af",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
-      "small": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
-      "attribution": "<a href=\"https://pixabay.com/en/social-media-faces-photo-album-550767/\" target=\"_blank\">geralt</a> <span class='assetLicence'>[CC0]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687e0",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687ae",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
-      "small": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
-      "attribution": "<a href=\"https://pixabay.com/en/social-media-faces-photo-album-550767/\" target=\"_blank\">geralt</a> <span class='assetLicence'>[CC0]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687de",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687ac",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "small": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=861919&term=people%20silhouette\" target=\"_blank\">Kjpargeter / Freepik / ODI</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687dc",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687ab",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "small": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=861919&term=people%20silhouette\" target=\"_blank\">Kjpargeter / Freepik / ODI</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5af30fad0b08723b05bb1e93",
+    "_id": "5af2f2c50b08723b05bb1e5f",
     "_layout": "left",
     "_type": "component",
-    "_parentId": "5af30ddc0b08723b05bb1e91",
-    "body": "<p><strong><span style=\"color:#33ccff\">Can you remember a time when you were a child and you accidentally broke something. Did you own up? Or was the fear or being told off too great?</span></strong></p>",
-    "displayTitle": "What to do if the GDPR has been breached",
-    "title": "What to do if the GDPR has been breached",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/5722a3d3bfed4238e04a74c608e5aba0f1113e28.jpg",
-      "small": "course/en/assets/5722a3d3bfed4238e04a74c608e5aba0f1113e28.jpg",
-      "attribution": "<a href=\"http://www.freepik.com/free-vector/security-icon_1086687.htm#term=risk&page=1&position\" target=\"_blank\">Photoroyalty / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5af30dee0b08723b05bb1e92",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5af30ddc0b08723b05bb1e91",
-    "body": "<p><strong>At the Open Data Institute we do not confirm to&nbsp;a &#39;whistle blowing approach&#39;. We are open by nature. If you think you have breached the GDPR please act quickly and inform your line manager. The quicker you act, the easier we can work together to provide solutions.</strong></p><p>The GDPR introduces a duty on all organisations to report any serious data breach to the relevant supervisory authority. A personal data breach means a breach of security leading to the unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data. This includes both accidental and deliberate breaches.</p><p>As we saw earlier, significant penalties can be imposed on any organisation who breaches the GDPR.</p>",
-    "displayTitle": "",
-    "title": "What to do if the GDPR has been breached",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "5afa9cca20c1982f059687d9",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687a9",
-    "_type": "component",
+    "_parentId": "5af2f2c50b08723b05bb1e5e",
     "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/9666374900330d96dad755893fb9770bc06bcd61.png",
-      "small": "course/en/assets/9666374900330d96dad755893fb9770bc06bcd61.png",
-      "attribution": "<a href=\"https://ico.org.uk/media/for-organisations/documents/1625136/good-and-bad-examples-of-privacy-notices.pdf\" target=\"_blank\">Open Data Institute</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5af31ca80b08723b05bb1ea8",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5af2c3450b08723b05bb1e37",
-    "body": "<p><strong><span style=\"color:#FFFFFF\">Think back to 1998. A time when we waited several minutes to dial&nbsp;up to broadband and the most&nbsp;we could do on our mobile phones&nbsp;was make calls or send pixilated text messages. Now, some 20 years later&nbsp;and our Smart Phones connect to everything, to everyone, at every moment.</span></strong></p>",
-    "displayTitle": "Why now?",
-    "title": "Why now?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "accordion",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_items": [
-      {
-        "title": "Aims of the GDPR",
-        "body": "<p>The last time our data protection laws were revised were&nbsp;in 1998.&nbsp;To ensure our privacy is protected and to maintain the power balance between us as individuals and corporations,&nbsp;we need an update.&nbsp;The GDPR, aims to &#39;harmonise&#39; data privacy laws within the EU and introduce&nbsp;a more robust compliancy framework which focuses on the&nbsp;increased&nbsp;protection of fundamental rights and freedom of individuals. Being open about how personal data is used, and how privacy is protected can help&nbsp;to build trust in organisations which collect&nbsp;and use&nbsp;personal data.</p>",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Where does it apply?",
-        "body": "<p>The GDPR applies to&nbsp;the processing of all personal data&nbsp;by organisations in the European Union (EU), regardless of whether the processing takes place in the EU or not.</p><p>Processing personal data covers the following, irrespective of how the data is collected:<br />collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.</p>",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      }
-    ],
-    "_shouldCollapseItems": true
-  },
-  {
-    "_id": "5afa9cca20c1982f059687d8",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687a8",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/39c343aca81e82ac6fbc3702050816c1269be49f.jpg",
-      "small": "course/en/assets/39c343aca81e82ac6fbc3702050816c1269be49f.jpg",
-      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">awesomecontent / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687d7",
-    "_layout": "right",
-    "_parentId": "5afa9cc920c1982f059687a7",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "small": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=836834&term=magnifying%20glass\" target=\"_blank\">Ibrandify / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afac6b020c1982f05968a3e",
-    "_layout": "full",
-    "_type": "component",
-    "_parentId": "5afac6a620c1982f05968a3d",
-    "body": "<p>Remember, just as change is a process rather than event, compliance is an ongoing journey. At the ODI we lead by example and combine compliance with great innovation. We are all a part of helping the business to keep iterating and improving.</p>",
-    "displayTitle": "Component title",
-    "title": "Component title",
+    "displayTitle": "How does it affect us here at the ODI?",
+    "title": "How does it affect us here at the ODI?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1162,28 +380,34 @@
     }
   },
   {
-    "_id": "5af4214273c2261f05dcf5de",
+    "_id": "5af597e621da484205671601",
     "_layout": "full",
     "_type": "component",
-    "_parentId": "5af4213873c2261f05dcf5dd",
-    "body": "<p><strong>Modification to or unauthorised destruction of data or documents containing&nbsp;personal data</strong></p><p>Always check which&nbsp;files can or cannot be altered or deleted.</p><p><strong>Loss or theft of staff equipment or devices </strong></p><p>Keep tabs on any devices&nbsp;you are responsible for&nbsp;(e.g. mobile phone, laptop,&nbsp;USB stick, CD, tablet,&nbsp;voice recorder etc.) both at work and in public spaces.</p><p><strong>Unauthorised use </strong></p><p>Be aware of who has&nbsp;access to company&nbsp;data or IT systems.</p><p><strong>Incorrect or unauthorised sharing </strong></p><p>Ensure you know how and who data can be shared with.</p><p><strong>Human error </strong></p><p>Be sure to track any client-facing interfaces i.e. social media. Mistakes can happen.</p>",
-    "displayTitle": "Examples of a data breach",
-    "title": "Examples of a data breach",
+    "_parentId": "5af5925f21da4842056715f8",
+    "body": "<p>Remember that photographs&nbsp;are also data and as such can only be processed&nbsp;if one of&nbsp;the six&nbsp;lawful bases apply. Before you use an image here at the ODI, you must obtain&nbsp;the&nbsp;consent&nbsp;of any individual(s)&nbsp;appearing in that picture.&nbsp;</p>",
+    "displayTitle": "",
+    "title": "Component title",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
-    "_component": "text",
+    "_component": "graphic",
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": ""
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2fcca39eb1acc981b8c7e75f771aeca428a7515e.png",
+      "small": "course/en/assets/2fcca39eb1acc981b8c7e75f771aeca428a7515e.png",
+      "attribution": "<a href=\"The Open Data Institute \" target=\"_blank\">ODI</a> <span class='assetLicence'>[All rights reserved]</span>"
+    }
   },
   {
     "_id": "5af964f9009bae1b05de7791",
     "_layout": "left",
     "_type": "component",
     "_parentId": "5af964f2009bae1b05de7790",
-    "body": "<p>As we have seen, the GDPR will strengthen existing individual rights over personal data as well as introducing new ones. Of these, data portability is something we talk widely about here at the ODI and&nbsp;there is much discussion over its&nbsp;potential&nbsp;in driving innovation and&nbsp;creating&nbsp;new products and services.</p><p>The re-use of data across other services may play a significant role in addressing the lack of competition in markets for example,&nbsp;where users could be given wider choice of switching&nbsp;between providers of the same.&nbsp;</p><p><strong><span style=\"color:#33ccff\">One example of sites which facilitate&nbsp;data of this&nbsp;type is Money Supermarket</span><span style=\"color:#33ccff\">.&nbsp;Can you think of any other examples?</span></strong></p><p>Want to know more about data portability? Read the blog written by Gillian and Jack <a href=\"https://theodi.org/article/will-gdpr-and-data-portability-support-innovation/\" target=\"_blank\">here</a>.</p>",
+    "body": "<p>As we have seen, the GDPR will strengthen existing individual rights over personal data as well as introducing new ones. Of these, data portability is something we talk widely about here at the ODI and&nbsp;there is much discussion over its&nbsp;potential&nbsp;in driving innovation and&nbsp;creating&nbsp;new products and services.</p><p>The re-use of data across other services may play a significant role in addressing the lack of competition in markets, for example,&nbsp;where users could be given wider choice of switching&nbsp;between providers.&nbsp;</p><p><strong><span style=\"color:#33ccff\">One example of sites which facilitate&nbsp;data of this&nbsp;type is Money Supermarket</span><span style=\"color:#33ccff\">.&nbsp;Can you think of any other examples?</span></strong></p><p>Want to know more about data portability? Read the blog written by Gillian and Jack <a href=\"https://theodi.org/article/will-gdpr-and-data-portability-support-innovation/\" target=\"_blank\">here</a>.</p>",
     "displayTitle": "How increased rights can support innovation",
     "title": "How increased rights can support innovation",
     "_isAvailable": true,
@@ -1217,7 +441,7 @@
     "_items": [
       {
         "title": "Special categories of personal data",
-        "body": "<p>Previously referred to as sensitive data, special categories of personal data require higher a higher level of protection as the context of their processing could create serious risks to the fundamental rights and freedoms of a person. These include:</p><ul><li>racial or ethnic origin</li><li>political opinions</li><li>religious or philosophical beliefs</li><li>trade union membership</li><li>genetic and biometric data (new in the GDPR)</li><li>physical or mental health or conditions</li><li>sex life or sexual orientation</li></ul>",
+        "body": "<p>Previously referred to as sensitive data, special categories of personal data require a higher level of protection as&nbsp;its processing could create serious risks to the fundamental rights and freedoms of a person. These include:</p><ul><li>racial or ethnic origin</li><li>political opinions</li><li>religious or philosophical beliefs</li><li>trade union membership</li><li>genetic and biometric data (new in the GDPR)</li><li>physical or mental health or conditions</li><li>sex life or sexual orientation</li></ul>",
         "_graphic": {
           "src": "course/en/assets/7f4051eb1770c3b0c66eebb44302b4b83e8a674b.png",
           "alt": "",
@@ -1227,7 +451,7 @@
       },
       {
         "title": "Criminal convictions data",
-        "body": "<p>Data relating to criminal convictions and offences, or related security measures may only be carried when:</p><ul><li>it is under the control of an official authority.</li><li>the processing is authorised by Union or Member State law providing for appropriate safeguards for people&#39;s rights and freedoms.</li></ul>",
+        "body": "<p>Data relating to criminal convictions and offences, or related security measures may only be carried out when:</p><ul><li>it is under the control of an official authority.</li><li>the processing is authorised by European Union or Member State law providing for appropriate safeguards for people&#39;s rights and freedoms.</li></ul>",
         "_graphic": {
           "src": "course/en/assets/dcb84d11adcee415f614efefd632130adb5bd1b7.png",
           "alt": "",
@@ -1252,7 +476,7 @@
     "_layout": "left",
     "_type": "component",
     "_parentId": "5afaac6520c1982f05968a1e",
-    "body": "<p><strong>Natalia is a Delivery Manager at the ODI. When Natalia starts a new project, she follows the requirements of the&nbsp;Privacy by Design model.</strong></p>",
+    "body": "",
     "displayTitle": "",
     "title": "Component title",
     "_isAvailable": true,
@@ -1267,7 +491,7 @@
       "alt": "",
       "large": "course/en/assets/53c38dbb2782e4fe7551a44a4cb688eb2d5cee3b.jpg",
       "small": "course/en/assets/53c38dbb2782e4fe7551a44a4cb688eb2d5cee3b.jpg",
-      "attribution": "<a href=\"Internal\" target=\"_blank\">Natalia</a> <span class='assetLicence'>[CC0]</span>"
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute </a> <span class='assetLicence'>[All rights reserved]</span>"
     }
   },
   {
@@ -1321,21 +545,21 @@
     "_layout": "right",
     "_type": "component",
     "_parentId": "5af2f7930b08723b05bb1e6e",
-    "body": "<p>As well as having access to a privacy notice, there are 8 additional rights which a person can choose to exercise at their will. As you read through each one, think about the role the ODI plays in dealing with these questions.</p>",
-    "displayTitle": "Know your rights!",
-    "title": "Know your rights!",
+    "body": "<p>As well as the right to&nbsp;a privacy notice, there are eight&nbsp;additional rights which a person can choose to&nbsp;exercise. Under the GDPR you can&nbsp;ask questions about&nbsp;the way in which&nbsp;data about you&nbsp;is being processed.&nbsp;</p><p>As&nbsp;you read, consider what this&nbsp;means for you as an individual as well as an ODI staff member. Which rights open up the most potential for data-led innovation?&nbsp;</p>",
+    "displayTitle": "What are my rights?",
+    "title": "What are my rights?",
     "_isAvailable": true,
     "_isOptional": false,
-    "_classes": "",
+    "_classes": "inverted color-one",
     "_component": "accordion",
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "Click on a box to find out more",
+    "instruction": "Remember, you have a right to ask questions about your data. Click on a box to find out more.",
     "_items": [
       {
         "title": "A right to access",
-        "body": "<p><em>Are you processing my data?</em></p><p><em>Where is my data being processed?</em></p><p><em>And for what purpose?</em></p><p>Organisations have one month from the request to provide a copy of the personal data in an electronic format where possible.</p>",
+        "body": "<p><em>Are you processing data about me?</em></p><p><em>Where is this data being processed?</em></p><p><em>And for what purpose?</em></p><p>Organisations have one month from a subject access request to provide a copy of the personal data in an electronic format where possible.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1345,7 +569,7 @@
       },
       {
         "title": "A right to rectification",
-        "body": "<p><em>My data is wrong. Can&nbsp;you correct it?</em></p><p>Personal data can be corrected if inaccurate or incomplete. This also&nbsp;applies to any copies shared with others.</p>",
+        "body": "<p><em>The data about me is wrong. Can&nbsp;you correct it?</em></p><p>Personal data can be corrected if inaccurate or incomplete. This also&nbsp;applies to any copies shared with others.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1355,7 +579,7 @@
       },
       {
         "title": "A right to be forgotten",
-        "body": "<p><em>Can you erase the personal data about me?</em></p><p><em>Going forward, can you stop sharing my data?</em></p><p><em>Can you stop third parties processing my data?</em></p><p><strong>When an individual withdraws consent, data must be erased.</strong></p><p>Data must also be erased if it is no longer relevant to the original purpose for processing or no lawful basis exists for the data to be held and processed.</p>",
+        "body": "<p><em>Can you erase the personal data about me?</em></p><p><em>Going forward, can you stop sharing this data?</em></p><p><em>Can you stop third parties processing data about me?</em></p><p><strong>When an individual withdraws consent, data must be erased.</strong></p><p>Data must also be erased if it is no longer relevant to the original purpose for processing or no lawful basis exists for the data to be held and processed.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1365,7 +589,7 @@
       },
       {
         "title": "A right to restrict processing",
-        "body": "<p>INFO?</p>",
+        "body": "<p><em>Can you &lsquo;block&rsquo; or suppress the processing of personal data about me?</em></p><p>This can be exercised when:</p><ul><li>the accuracy of the personal data is contested</li><li>the individual has objected to the processing (only in the case of performance of a public task or legitimate interest)</li><li>the processing is unlawful</li><li>the data is needed for future reference but should no longer be processed</li></ul>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1375,7 +599,7 @@
       },
       {
         "title": "A right to data portability",
-        "body": "<p><em>Can&nbsp;I see a copy of the personal data I&nbsp;have given you, or that you have automatically&nbsp;gathered from me?</em></p><p><em>Can you transmit my data directly to another organisation?&nbsp;</em></p><p>An organisation must provide this in a commonly-used, machine readable format.&nbsp;</p>",
+        "body": "<p><em>Can&nbsp;I see a copy of the personal data I&nbsp;have given you, or that you have automatically&nbsp;gathered from me?</em></p><p><em>Can you transmit my data directly to another organisation?&nbsp;</em></p><p>An organisation must provide this in a commonly-used, machine-readable format.&nbsp;</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1395,7 +619,7 @@
       },
       {
         "title": "A right to object",
-        "body": "<p><em>Can you stop processing data about me?</em></p><p><strong>The right only applies in certain circumstances. </strong></p><p>If one of the following is met, the right can be exercised:</p><ul><li>When data is used for direct marketing&nbsp;</li><li>When data is used for research or statistical purposes (unless necessary for public interest i.e. health research)</li><li>When the data is processed on public or legitimate interests.&nbsp;</li></ul>",
+        "body": "<p><em>Can you stop processing data about me?</em></p><p><strong>The right only applies in certain circumstances. </strong></p><p>If one of the following is met, the right can be exercised:</p><ul><li>When data is used for direct marketing&nbsp;</li><li>When data is used for research or statistical purposes (unless necessary for public interest ie&nbsp;health research)</li><li>When the data is processed in&nbsp;the public interest/ in legitimate interests.</li></ul>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1405,7 +629,7 @@
       },
       {
         "title": "A right to not be subject solely to automated decision making",
-        "body": "<p><em>Are decisions being made about my data via&nbsp;automated processing?</em></p><p>Automated processing can be carried out if the decision is:</p><ul><li>Necessary for the entry into/performance of a contract</li><li>Authorised in law</li><li>Based on the individual&#39;s explicit consent</li></ul><p>Individuals must be informed as well as be permitted&nbsp;to request human intervention or challenge a decision.</p>",
+        "body": "<p><em>Are decisions being made about personal data via&nbsp;automated processing?</em></p><p>Automated processing can be carried out if the decision is:</p><ul><li>Necessary for the entry into/performance of a contract</li><li>Authorised in law</li><li>Based on the individual&#39;s explicit consent</li></ul><p>Individuals must be informed as well as be permitted&nbsp;to request human intervention or challenge a decision.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1440,16 +664,16 @@
     }
   },
   {
-    "_id": "5af2d9970b08723b05bb1e5b",
+    "_id": "5afc46d83ded763505de841f",
     "_layout": "right",
     "_type": "component",
-    "_parentId": "5af2d9450b08723b05bb1e5a",
-    "body": "",
+    "_parentId": "5afaac6520c1982f05968a1e",
+    "body": "<p><strong>Natalia worked with us as&nbsp;a Delivery Manager at the ODI. With the introduction of the GDPR, her role would now be affected by the requirements of &#39;privacy by design&#39;.</strong></p>",
     "displayTitle": "",
     "title": "Component title",
     "_isAvailable": true,
     "_isOptional": false,
-    "_classes": "inverted color-four",
+    "_classes": "",
     "_component": "accordion",
     "_pageLevelProgress": {
       "_isEnabled": true
@@ -1457,8 +681,8 @@
     "instruction": "",
     "_items": [
       {
-        "title": "Contract",
-        "body": "<p>Is the processing necessary for a contract the organisation has with an individual?&nbsp;</p><p>Has an individual asked you to take specific steps before entering into a contract?</p>",
+        "title": "Data Protection Impact Assessment",
+        "body": "<p>Where data processing is likely to result in a higher risk to individuals (eg&nbsp;a&nbsp;major project involving the use of personal data)&nbsp;a <strong>Data Protection Impact Assessment (DPIA)</strong> is required under the GDPR.&nbsp;</p><p>A DPIA helps you to:</p><ul><li>describe the nature, scope, context and purposes of the processing</li><li>assess necessity, proportionality and compliance measures</li><li>identify and assess risks to individuals</li><li>identify any additional measures to mitigate those risks</li></ul><p>In line with our principles, we promise to publish&nbsp;our DPIAs openly. We will also guide other organisations to do the same with the help of our&nbsp;Data Ethics Canvas&nbsp;(see below).</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1467,48 +691,8 @@
         "_classes": ""
       },
       {
-        "title": "Legal obligation",
-        "body": "<p>Is the processing necessary for you to comply with legal obligation?</p>",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Vital interests",
-        "body": "<p>Is the processing necessary to protect an individual&#39;s life?</p>",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Public tasks",
-        "body": "<p>Is the processing necessary for you to perform a task in the public interest?&nbsp;</p><p>Is it necessary for you to perform your official functions (providing it has a clear lawful basis)?</p>",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Legitimate interests",
-        "body": "<p>Is the processing necessary for your legitimate interests?</p><p>Is it necessary for the legitimate interests of a third party?&nbsp;</p><p><em>*Unless there is a good reason to protect the individual&#39;s personal data, overriding those interests.&nbsp;</em></p>",
-        "_graphic": {
-          "alt": "",
-          "src": "",
-          "attribution": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Consent",
-        "body": "<p>Has the individual given clear consent for your to process their personal data for a specific purpose?</p>",
+        "title": "Data Ethics Canvas",
+        "body": "<p>In addition to acting as a decision-making tool,&nbsp;the <a href=\"http://theodi.org/article/data-ethics-canvas/\">Data Ethics Canvas</a>&nbsp;encourages us&nbsp;to&nbsp;look at the broader ethical issues involved in working with personal data.</p><p>The canvas can be used alongside a DPIA to help ensure ethical data-led innovation.&nbsp;</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -1520,16 +704,16 @@
     "_shouldCollapseItems": true
   },
   {
-    "_id": "5af2daee0b08723b05bb1e5c",
+    "_id": "5af2f4850b08723b05bb1e65",
     "_layout": "left",
     "_type": "component",
-    "_parentId": "5af2d9450b08723b05bb1e5a",
-    "body": "<p>The GDPR requires everyone to&nbsp;process personal data lawfully, fairly and in a transparent manner. There are six&nbsp;lawful bases outlined in the GDPR. At least one must apply. Without a lawful basis, it is illegal to collect and process&nbsp;personal data.&nbsp;</p>",
-    "displayTitle": "A lawful basis for processing data",
-    "title": "A lawful basis for processing data",
+    "_parentId": "5af2f4850b08723b05bb1e64",
+    "body": "",
+    "displayTitle": "How does it affect our individual rights?",
+    "title": "How does it affect our individual rights?",
     "_isAvailable": true,
     "_isOptional": false,
-    "_classes": "color-eight",
+    "_classes": "",
     "_component": "text",
     "_pageLevelProgress": {
       "_isEnabled": true
@@ -1537,11 +721,99 @@
     "instruction": ""
   },
   {
+    "_id": "5afea223b1e3a61805eb4b03",
+    "_layout": "right",
+    "_parentId": "5afea221b1e3a61805eb4ac5",
+    "_type": "component",
+    "body": "<p><strong>Which types of personal data do we process here at the ODI?</strong></p>",
+    "displayTitle": "The personal data we work with",
+    "title": "The personal data we work with",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select three answers then click 'submit'",
+    "_items": [
+      {
+        "text": "Meta data from interviews carried out in research projects ie names of interviewees",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Content collected from interviews which have been conducted for research projects",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Names and email addresses of guests signing in at the front desk",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Location data for eLearning modules",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Webpages viewed on work laptops",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>The items you selected are all examples of the personal data we&nbsp;collect&nbsp;and store.&nbsp;Each type of data is&nbsp;processed under one of the six lawful bases for processing data.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>Although we collect and store the name and email address of our eLearning users, we do not process any location data. Nor do we track any company devices using monitoring software.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
     "_id": "5af5543521da4842056715ce",
     "_layout": "right",
     "_type": "component",
     "_parentId": "5af553f521da4842056715c9",
-    "body": "<p><span style=\"color:#3399ff\"><strong>Today there are so many ways that we&nbsp;are able to identify someone. How many can you think of?</strong></span></p><p>Under the GDPR, personal data refers to any data relating to an identifiable person. This means anything which can result in the direct or indirect&nbsp;identification of an individual.&nbsp;Remember, people&nbsp;can also be&nbsp;identified by physical,&nbsp;physiological, genetic, mental, economic, cultural or social factors.</p><p>In isolation, the examples listed on the left may&nbsp;not necessarily&nbsp;make a person&nbsp;identifiable - take the common name,&nbsp;John Smith. We could be talking about a number of different men. But combine this with other data like John&#39;s&nbsp;address and his date of birth and suddenly we are talking about John Smith, 30 years old&nbsp;from Cherry Tree Lane, Islington, London.</p>",
+    "body": "<p><span style=\"color:#3399ff\"><strong>Today there are so many ways that we&nbsp;are able to identify someone. How many can you think of?</strong></span></p><p>Under the GDPR, personal data refers to any data relating to an identifiable person. This means anything which can result in the direct or indirect&nbsp;identification of an individual.&nbsp;Remember, people&nbsp;can also be&nbsp;identified by physical,&nbsp;physiological, genetic, mental, economic, cultural or social factors.</p><p>In isolation, the examples listed on the left may&nbsp;not necessarily&nbsp;make a person&nbsp;identifiable &ndash;&nbsp;take the common name,&nbsp;John Smith. We could be talking about a number of different men. But combine this with other data like John&#39;s&nbsp;address and his date of birth and suddenly we are talking about John Smith, 30 years old&nbsp;from Cherry Tree Lane, Islington, London.</p>",
     "displayTitle": "",
     "title": "Component title",
     "_isAvailable": true,
@@ -1594,9 +866,9 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/a72d7f75398deb92b3ded1f872c3889e71c6e003.png",
-      "small": "course/en/assets/a72d7f75398deb92b3ded1f872c3889e71c6e003.png",
-      "attribution": "<a href=\"Pixabay\" target=\"_blank\">Pixabay</a> <span class='assetLicence'>[CC0]</span>"
+      "large": "course/en/assets/920b06ed7712901d594c675160503549989b5d65.jpeg",
+      "small": "course/en/assets/920b06ed7712901d594c675160503549989b5d65.jpeg",
+      "attribution": "<a href=\"https://www.freepik.com/free-vector/computer-wallpaper-with-icons_1087359.htm#term=request&page=1&position=5\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
     }
   },
   {
@@ -1604,7 +876,7 @@
     "_layout": "left",
     "_type": "component",
     "_parentId": "5af2b28e0b08723b05bb1e28",
-    "body": "<p>On the 25th May 2018&nbsp;the General Data Protection Regulation will come into effect, as part of modernising&nbsp;data protection regulations across the European Union. It will be&nbsp;the biggest shake up to global privacy laws for more than 20 years and here at the ODI we are harnessing this change in the law to enable great innovation.&nbsp;</p><ul><li>What exactly is&nbsp;the GDPR?</li><li>How does it affect us here at the Open Data Institute?&nbsp;</li><li>How does it affect our rights as individuals?</li><li>How can we follow codes of best practice to ensure we keep our data safe?</li></ul>",
+    "body": "<p>On the 25 May 2018&nbsp;the General Data Protection Regulation will come into effect, amending&nbsp;data protection regulations across the European Union.</p><p>In this learning module we will&nbsp;look at what this new legislation means for us and delve into some of the benefits which will accompany it.&nbsp;</p><ul><li>What exactly is&nbsp;the GDPR?</li><li>How does it affect us here at the Open Data Institute?&nbsp;</li><li>How does it affect our individual rights?</li><li>How can we follow codes of best practice to ensure we keep our data safe?</li></ul>",
     "displayTitle": "The General Data Protection Regulation",
     "title": "The General Data Protection Regulation",
     "_isAvailable": true,
@@ -1638,6 +910,46 @@
       "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
       "attribution": ""
     }
+  },
+  {
+    "_id": "5afc04493ded763505de8419",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5af30ddc0b08723b05bb1e91",
+    "body": "<p><strong><span style=\"color:#33ccff\">Can you remember a time when you were a child and you accidentally broke something. Did you own up? Or was the fear or being told off too great?</span></strong></p>",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-one",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "What should I do in a breach?",
+        "body": "<p><strong>At the Open Data Institute we do not conform to&nbsp;a &#39;finger-pointing approach&#39;. We are open by definition. If you think you have breached the GDPR please act quickly and inform your line manager. The quicker you act, the easier we can work together to provide solutions.</strong></p><p>The GDPR introduces a duty on all organisations to report any serious data breach to the relevant supervisory authority.&nbsp;This includes both accidental and deliberate breaches.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "What is a breach?",
+        "body": "<p><strong>Modification to or unauthorised destruction of data or documents containing&nbsp;personal data</strong></p><p>Always check which&nbsp;files can or cannot be altered or deleted.</p><p><strong>Loss or theft of staff equipment or devices </strong></p><p>Keep tabs on any devices&nbsp;you are responsible for&nbsp;(eg&nbsp;&nbsp;mobile phone, laptop,&nbsp;USB stick&nbsp;etc) both at work and in public spaces.</p><p><strong>Unauthorised use </strong></p><p>Be aware of who has&nbsp;access to company&nbsp;data or IT systems.</p><p><strong>Incorrect or unauthorised sharing </strong></p><p>Ensure you know how and who data can be shared with.</p><p><strong>Human error </strong></p><p>Mistakes can happen, even with client-facing interfaces eg an employee posting a client&#39;s photo on Twitter without their consent. Keep this in mind when using social media.&nbsp;</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
   },
   {
     "_id": "5af2d2ec0b08723b05bb1e4e",
@@ -1709,27 +1021,21 @@
     }
   },
   {
-    "_id": "5af597e621da484205671601",
-    "_layout": "right",
+    "_id": "5af3099f0b08723b05bb1e7b",
+    "_layout": "left",
     "_type": "component",
-    "_parentId": "5af5925f21da4842056715f8",
+    "_parentId": "5af3099f0b08723b05bb1e7a",
     "body": "",
-    "displayTitle": "",
-    "title": "Component title",
+    "displayTitle": "How can we follow codes of best practice?",
+    "title": "How can we follow codes of best practice?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
-    "_component": "graphic",
+    "_component": "text",
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/3a004c02b0db60f1d702f9916ee9ed6b80f64ab2.png",
-      "small": "course/en/assets/3a004c02b0db60f1d702f9916ee9ed6b80f64ab2.png",
-      "attribution": "<a href=\"https://www.flaticon.com/free-icon/photo-camera_149098#term=photo&page=1&position=2\" target=\"_blank\">Flaticon</a> <span class='assetLicence'>[CC0]</span>"
-    }
+    "instruction": ""
   },
   {
     "_id": "5af972b6009bae1b05de7792",
@@ -1755,30 +1061,36 @@
     }
   },
   {
-    "_id": "5af597cb21da484205671600",
+    "_id": "5afae20420c1982f05968a42",
     "_layout": "left",
     "_type": "component",
-    "_parentId": "5af5925f21da4842056715f8",
-    "body": "<p><strong><span style=\"color:#33ccff\">With all the new rules and regulations, how have you been allowed to use staff photos in this module?</span></strong></p><p>You are&nbsp;probably wondering how we&#39;ve been allowed to use Natalia&#39;s image here. Photographs are still personal data and as such are protected under the 6 lawful basis for&nbsp;processing data.&nbsp;&nbsp;Under the GDPR&nbsp;you will need to obtain written consent from any subject(s) appearing in an image.&nbsp;</p>",
+    "_parentId": "5afac6a620c1982f05968a3d",
+    "body": "",
     "displayTitle": "",
-    "title": "Photos",
+    "title": "Component title",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
-    "_component": "text",
+    "_component": "graphic",
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": ""
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/cb37a73180b59df11864f4753fdf885a658888d4.jpg",
+      "small": "course/en/assets/cb37a73180b59df11864f4753fdf885a658888d4.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927\" target=\"_blank\">higyou</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
   },
   {
     "_id": "5af2ca4c0b08723b05bb1e40",
     "_layout": "left",
     "_type": "component",
     "_parentId": "5af2c8800b08723b05bb1e3c",
-    "body": "<p>All of our staff here at the Open Data Institute must globally apply the GDPR when processing any type of personal data. This could be HR and employee records, member information and customer lists. Even if you are in a department or role that does not deal with large quantities of personal data, it is likely that at some point you will find yourself handling it.</p><p><span style=\"color:#3399ff\"><strong>Can you recall&nbsp;the last time you handled personal data?&nbsp;Maybe you compiled a guest list, sent out information for an event, or sent a group email to your customers.</strong></span></p>",
-    "displayTitle": "Who and what is affected?",
-    "title": "Who and what is affected?",
+    "body": "<p>All of our staff here at the ODI must&nbsp;apply the GDPR when processing any type of personal data. This could be HR and employee records, member information and customer lists. Even if you are in a department or role that does not deal with large quantities of personal data, it is likely that at some point you will find yourself handling it.</p><p><span style=\"color:#3399ff\"><strong>Can you recall&nbsp;the last time you handled personal data?&nbsp;Maybe you compiled a guest list, sent out information for an event, or sent a group email to your stakeholders.</strong></span></p>",
+    "displayTitle": "",
+    "title": "Affect",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1789,13 +1101,36 @@
     "instruction": ""
   },
   {
+    "_id": "5afea222b1e3a61805eb4ae3",
+    "_layout": "right",
+    "_parentId": "5afea220b1e3a61805eb4ac0",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/efcf8de1a8a7c7dac10f9f91063a92130e6f26b5.jpg",
+      "small": "course/en/assets/efcf8de1a8a7c7dac10f9f91063a92130e6f26b5.jpg",
+      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
     "_id": "5af2f5170b08723b05bb1e6a",
     "_layout": "right",
     "_type": "component",
     "_parentId": "5af2f4c60b08723b05bb1e69",
-    "body": "<p><strong><span style=\"color:#3399ff\">When was the last time you bought something online? Before you submitted your personal details did you check or uncheck the privacy boxes?&nbsp;</span></strong></p><p>Privacy notices are one of the most visible aspects that demonstrate compliance with the GDPR.&nbsp;Within a notice individuals must be clearly&nbsp;informed about:</p><ul><li>What data is collected</li><li>What data is being&nbsp;used for and how we&nbsp;can exercise our rights over the data.</li></ul><p>This information must be presented to the individual as near to the point of data collection as possible.&nbsp;</p><p>In addition to fines being imposed for non-compliance, they can also be imposed where a privacy notice is deemed unclear or misleading. And with maximum fines of &pound;17 million, this is no light issue.</p>",
-    "displayTitle": "Privacy",
-    "title": "Privacy",
+    "body": "<p><strong><span style=\"color:#3399ff\">When was the last time you bought something online? Before you submitted your personal details did you check or uncheck the privacy boxes?&nbsp;</span></strong></p><p>Privacy notices are one of the most visible aspects that demonstrate compliance with the GDPR. This is why, at the ODI,&nbsp;we make sure our website, tools, newsletters etc all come with a privacy notice.&nbsp;</p><p>Under the GDPR, a privacy notice must disclose:</p><ul><li>what data is being collected</li><li>what the data is being&nbsp;used for and how an individual can exercise their&nbsp;rights over the data</li></ul><p>This information must be presented to the individual as near to the point of data collection as possible.&nbsp;</p><p>In addition to fines being imposed for non-compliance, they can also be imposed where a privacy notice is deemed unclear or misleading. These can be up to a maximum of&nbsp;&pound;17&nbsp;million!</p>",
+    "displayTitle": "Privacy best pratice",
+    "title": "Privacy best practice",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1810,9 +1145,9 @@
     "_layout": "left",
     "_type": "component",
     "_parentId": "5af2d3a20b08723b05bb1e51",
-    "body": "<p style='color: odi-color-one;'>Being open about how personal data is used, and how privacy is protected, helps to build trust in organisations collecting and using personal data. Greater trust means less friction when developing new ideas and services, and greater use of existing ones. It facilitates more connections and&nbsp;<a href=\"http://theodi.org/blog/comment-what-would-an-open-data-future-look-like\">network effects</a>. It helps consumers feel empowered, and leads to more informed choices about services that involve collection of personal data. Openness makes things better.</p><p>The principles encourage organisations to commit to being &lsquo;open&rsquo; in a number of ways. &lsquo;Open&rsquo; means both sharing information (publicly online and directly to people), and being open to feedback from people about how things could be improved.</p>",
-    "displayTitle": "The GDPR and our principals",
-    "title": "The GDPR and our principals",
+    "body": "<p>Being open about how personal data is used, and how privacy is protected, helps to build trust in organisations collecting and using personal data. Greater trust means less friction when developing new ideas and services.&nbsp;It facilitates more connections and&nbsp;network effects. It helps consumers feel empowered, and leads to more informed choices about services that involve collection of personal data. Openness makes things better.</p><p>Our principles encourage organisations to commit to being &lsquo;open&rsquo; in a number of ways. &lsquo;Open&rsquo; means both sharing information (publicly online and directly to people), and being open to feedback from people about how things could be improved.</p>",
+    "displayTitle": "The GDPR and our principles",
+    "title": "The GDPR and our principles",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1842,1241 +1177,17 @@
       "alt": "",
       "large": "course/en/assets/cc304fed7734deb5c0c58b203e576d044146e79c.jpg",
       "small": "course/en/assets/cc304fed7734deb5c0c58b203e576d044146e79c.jpg",
-      "attribution": "<a href=\"ODI\" target=\"_blank\">ODI</a> <span class='assetLicence'>[CC0]</span>"
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>"
     }
   },
   {
-    "_id": "5afa9cca20c1982f05968830",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687bd",
-    "body": "<p>If you think you have identified a potential personal data breach, what should you do?</p>",
-    "displayTitle": "Data breaches",
-    "title": "Data breaches",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Ignore it",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Notify the ICO",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Contact the Data Protection Officer",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Inform your line manager",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>If you think you have identified a potential personal data breach you should notify the Data Protection Officer who will then decide on the next course of action.&nbsp;</p><p>Breach notification is mandatory where a data breach is likely to result in a risk for the rights and freedoms of individuals. The FCO must report any such data breaches and those affected, to the ICO within 72 hours of becoming aware of them. We must also keep a record of any personal data breaches, regardless of whether we are required to notify.</p><p>&nbsp;</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>If you think you have identified a potential personal data breach you should notify the Data Protection Officer who will then decide on the next course of action.&nbsp;</p><p>Breach notification is mandatory where a data breach is likely to result in a risk for the rights and freedoms of individuals. The FCO must report any such data breaches and those affected, to the ICO within 72 hours of becoming aware of them. We must also keep a record of any personal data breaches, regardless of whether we are required to notify.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968818",
+    "_id": "5afea223b1e3a61805eb4afc",
     "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687c6",
+    "_parentId": "5afea220b1e3a61805eb4ac4",
     "_type": "component",
-    "body": "<p>True or False: An individual&rsquo;s personal data can only be transferred to countries within the EU?</p>",
-    "displayTitle": "International transfers",
-    "title": "International transfers",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "True",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "False",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR makes it much easier to transfer data within&nbsp;the EU.</p><p>Transfers outside of the EU may be made:</p><ul><li>to locations&nbsp;the European Commission has decided an adequate level of protection is afforded</li><li>to organisations where appropriate protection is afforded through contractual clauses</li><li>with the individual&#39;s informed consent</li><li>where it is absolutely necessary for the fulfilment of the lawful basis</li></ul>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR makes it much easier to transfer data within&nbsp;the EU.</p><p>Transfers outside of the EU may be made:</p><ul><li>to locations&nbsp;the European Commission has decided an adequate level of protection is afforded</li><li>to organisations where appropriate protection is afforded through contractual clauses</li><li>with the individual&#39;s informed consent</li><li>where it is absolutely necessary for the fulfilment of the lawful basis</li></ul>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f0596881a",
-    "_layout": "left",
-    "_parentId": "5afa9cc920c1982f059687a7",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">Which of the following rights are introduced or enhanced for individuals in the GDPR?</p>",
-    "displayTitle": "Individual rights",
-    "title": "Individual rights",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select three answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Right to access",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Right to erasure",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Right to portability",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Right to manipulate",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Right to complain",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 3,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>One of main changes introduced by the&nbsp;GDPR is the addition and enhancement of a number of individual&nbsp;rights including the right to access, right to erasure and right to portability.&nbsp;</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>One of main changes to GDPR Is the addition and enhancement of a number of individuals&nbsp;rights including the right to access, right to erasure and right to portability.&nbsp;</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968816",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687c4",
-    "_type": "component",
-    "body": "<p>Which countries can an individual&rsquo;s personal data be transferred to&nbsp;(without needing to gain consent and it is not necessary in order to fulfil the legal basis)?</p>",
-    "displayTitle": "International transfers",
-    "title": "International transfers",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Any EU country",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Any third country approved by the European Commission that offers an adequate level of data protection",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Any country",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR makes it much easier to transfer data within&nbsp;the EU.</p><p>Transfers outside of the EU may be made:</p><ul><li>to locations&nbsp;the European Commission has decided an adequate level of protection is afforded</li><li>to organisations where appropriate protection is afforded through contractual clauses</li><li>with the individual&#39;s informed consent</li><li>where it is absolutely necessary for the fulfilment of the lawful basis</li></ul>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR makes it much easier to transfer data within&nbsp;the EU.</p><p>Transfers outside of the EU may be made:</p><ul><li>to locations&nbsp;the European Commission has decided an adequate level of protection is afforded</li><li>to organisations where appropriate protection is afforded through contractual clauses</li><li>with the individual&#39;s informed consent</li><li>where it is absolutely necessary for the fulfilment of the lawful basis</li></ul>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968813",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687c1",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">Under the GDPR, in certain circumstances, individuals have the right to request a copy of data they have provided. How much can be changed for this service?</p>",
-    "displayTitle": "Individual rights",
-    "title": "Individual rights",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Nothing",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "A reasonable cost of service",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "There is no limit",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR give rights of access to individuals to find out from the data controller whether or not personal data concerning them is being processed, and if it is, to access it as well as information about how the data is being collected, used and shared.&nbsp;</p><p>While rights to access are present under the Data Protection Act (DPA), the GDPR specifies that the right to request and access personal data should be free of charge.</p><p>The GDPR also states that if the individual makes the request electronically, the information should be provided electronically, unless otherwise requested.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR give rights of access to individuals to find out from the data controller whether or not personal data concerning them is being processed, and if it is, to access it as well as information about how the data is being collected, used and shared.&nbsp;</p><p>While rights to access are present under the Data Protection Act (DPA), the GDPR specifies that the right to request and access personal data should be free of charge.</p><p>The GDPR also states that if the individual makes the request electronically, the information should be provided electronically, unless otherwise requested.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968811",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687c0",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">Under the GDPR, in certain circumstances, individuals have the right to request a copy of data they have provided. How should this be provided?</p>",
-    "displayTitle": "Individual rights",
-    "title": "Individual rights",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "In a commonly used machine readable format",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "As a PDF image",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Printed in the post",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR give rights of access to individuals to find out from the data controller whether or not personal data concerning them is being processed, and if it is, to access it as well as information about how the data is being collected, used and shared.&nbsp;</p><p>While rights to access are present under the Data Protection Act (DPA), the GDPR specifies that the right to request and access personal data should be free of charge.</p><p>The GDPR also states that if the individual makes the request electronically, the information should be provided electronically, unless otherwise requested.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR give rights of access to individuals to find out from the data controller whether or not personal data concerning them is being processed, and if it is, to access it as well as information about how the data is being collected, used and shared.&nbsp;</p><p>While rights to access are present under the Data Protection Act (DPA), the GDPR specifies that the right to request and access personal data should be free of charge.</p><p>The GDPR also states that if the individual makes the request electronically, the information should be provided electronically, unless otherwise requested.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968810",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687bf",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">The GDPR introduces the right to be forgotten which gives individuals the right to:</p>",
-    "displayTitle": "Individual rights",
-    "title": "Individual rights",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Request that the data controller erase their personal data",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Be removed from official and legal documents, such as police records",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Be edited out of a TV show where previously consent was given",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The right to be forgotten (or the right to data erasure) entitles the data subject (where conditions permit) to direct the data controller to erase personal data concerning him or her, cease further sharing of the data, and potentially have third parties halt processing of the data.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The right to be forgotten (or the right to data erasure) entitles the data subject (where conditions permit) to direct the data controller to erase personal data concerning him or her, cease further sharing of the data, and potentially have third parties halt processing of the data.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f0596880d",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687b8",
-    "body": "<p>Within what time period of becoming aware of a serious data breach&nbsp;should this be reported to the supervisory authority?</p>",
-    "displayTitle": "Data breaches",
-    "title": "Data breaches",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Within four hours",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Within 48 hours",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Within 72 hours",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Within one week",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "No specific time frame",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>Breach notification is mandatory where a data breach is likely to result in a risk for the rights and freedoms of individuals. You must do this within 72 hours of becoming aware of the breach.&nbsp;You must also&nbsp;inform those affected individuals without undue delay.</p><p>You must also&nbsp;keep a record of any personal data breaches, regardless of whether you are required to notify.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>Breach notification is mandatory where a data breach is likely to result in a risk for the rights and freedoms of individuals. You must do this within 72 hours of becoming aware of the breach.&nbsp;You must also&nbsp;inform those affected individuals without undue delay.</p><p>You must also&nbsp;keep a record of any personal data breaches, regardless of whether you are required to notify.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f0596880c",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687b7",
-    "body": "<p>What is a Data Protection Impact Assessment (DPIA)?</p>",
-    "displayTitle": "GDPR by default",
-    "title": "GDPR by default",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "A compulsory yearly audit of your organisation’s data protection policies",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "A tool that you can use to identify and reduce the privacy risks of your projects.",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "A retrospective at the end of a project to analyse whether data protection was adequate",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>A Data Protection Impact Assessment (DPIA) is a tool that you can use to identify and reduce the privacy risks of your projects.</p><p>A DPIA helps you to:</p><ul><li>describe the nature, scope, context and purposes of the processing</li><li>assess necessity, proportionality and compliance measures</li><li>identify and assess risks to individuals</li><li>identify any additional measures to mitigate those risks</li></ul>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>A Data Protection Impact Assessment (DPIA) is a tool that you can use to identify and reduce the privacy risks of your projects.</p><p>A DPIA helps you to:</p><ul><li>describe the nature, scope, context and purposes of the processing</li><li>assess necessity, proportionality and compliance measures</li><li>identify and assess risks to individuals</li><li>identify any additional measures to mitigate those risks</li></ul>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f0596880b",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687b6",
-    "body": "<p>Which of the following are legal requirements under the GDPR?</p>",
-    "displayTitle": "GDPR by default",
-    "title": "GDPR by default",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select two answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Serious breach notification",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Privacy by design",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Encryption of personal data",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Hiring a data protection officer",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 2,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>&lsquo;Privacy by design&rsquo; is a legal requirement. It requires organisations to consider individuals&rsquo; privacy from the start of the design of any system or service rather than being bolted on at the end.&nbsp;</p><p>The GDPR also introduces a duty on all organisations to report any serious data breach to the relevant supervisory authority.</p><p>The GDPR requires the appointment a data protection officer (DPO) if you are a public authority, or if you carry out certain types of processing activities involving large scales of personal data or special categories of personal data.</p><p>The GDPR requires personal data to be processed in a manner that ensures its security. It requires that appropriate technical or organisational measures are used.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>&lsquo;Privacy by design&rsquo; is a legal requirement. It requires organisations to consider individuals&rsquo; privacy from the start of the design of any system or service rather than being bolted on at the end.&nbsp;</p><p>The GDPR also introduces a duty on all organisations to report any serious data breach to the relevant supervisory authority.</p><p>The GDPR requires the appointment a data protection officer (DPO) if you are a public authority, or if you carry out certain types of processing activities involving large scales of personal data or special categories of personal data.</p><p>The GDPR requires personal data to be processed in a manner that ensures its security. It requires that appropriate technical or organisational measures are used.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f0596880e",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687be",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "small": "course/en/assets/168aaddb50bd4da70aeb517c65262d077538c3ff.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=836834&term=magnifying%20glass\" target=\"_blank\">Ibrandify / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968806",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687b1",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/6b0815e5da4596e0ae1e03ee73c1ae48b74c18f4.jpg",
-      "small": "course/en/assets/6b0815e5da4596e0ae1e03ee73c1ae48b74c18f4.jpg",
-      "attribution": "<a href=\"http://www.freepik.com/free-vector/nice-people-avatars-in-flat-design_844761.htm#term=people&page=1&position=26\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968808",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687b3",
-    "_type": "component",
-    "body": "<p>Which individuals does the GDPR apply to?</p>",
-    "displayTitle": "Who does the GDPR apply to and where?",
-    "title": "Who does the GDPR apply to and where?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "All EU citizens",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "All individuals interacting with an organisation operating in the EU, regardless of nationality",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "All EU citizens interacting with any company worldwide",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>The GDPR will apply to the processing of all personal data by organisations in the EU, regardless of whether the processing takes place in the EU or not.</p><p>The GDPR will also apply to the processing of personal data in the EU by an organisation not established in the EU, where the activities relate to either:</p><ol><li>Offering goods or services within EU (irrespective of whether payment is required)</li><li>Monitoring of individuals behaviour as far as their behaviour takes place within the EU</li></ol><p>This means that even if a company has no physical base in the EU, the GDPR may still apply if goods and services are offered to those located within the EU.</p><p>On this basis you do not need to be an EU citizen for the GDPR to apply. Anyone located in the EU interacting with services offered in the EU is in scope of the GDPR.&nbsp;</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The GDPR will apply to the processing of all personal data by organisations in the EU, regardless of whether the processing takes place in the EU or not.</p><p>The GDPR will also apply to the processing of personal data in the EU by an organisation not established in the EU, where the activities relate to either:</p><ol><li>Offering goods or services within EU (irrespective of whether payment is required)</li><li>Monitoring of individuals behaviour as far as their behaviour takes place within the EU</li></ol><p>This means that even if a company has no physical base in the EU, the GDPR may still apply if goods and services are offered to those located within the EU.</p><p>On this basis you do not need to be an EU citizen for the GDPR to apply. Anyone located in the EU interacting with services offered in the EU is in scope of the GDPR.&nbsp;</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968807",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687b2",
-    "_type": "component",
-    "body": "<p>Which of the following are examples of special categories of personal data?</p>",
-    "displayTitle": "Special categories of personal data",
-    "title": "Special categories of personal data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select three answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Trade union membership",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Sexual orientation",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Genetic and biometric data",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Date of birth",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Favourite colour",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 3,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>&lsquo;Special categories of personal data&rsquo; (previously referred to as sensitive personal data) merit higher protection as the context of their processing could create significant risks to fundamental rights and freedoms.</p><p>These categories include:</p><ul><li>Racial or ethnic origin</li><li>Political opinions</li><li>Religious or philosophical beliefs</li><li>Trade union membership</li><li>Genetic and biometric data (new in GDPR)</li><li>Physical or mental health or conditions</li><li>Sex life or sexual orientation</li></ul>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>&lsquo;Special categories of personal data&rsquo; (previously referred to as sensitive personal data) merit higher protection as the context of their processing could create significant risks to fundamental rights and freedoms.</p><p>These categories include:</p><ul><li>Racial or ethnic origin</li><li>Political opinions</li><li>Religious or philosophical beliefs</li><li>Trade union membership</li><li>Genetic and biometric data (new in GDPR)</li><li>Physical or mental health or conditions</li><li>Sex life or sexual orientation</li></ul>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687f4",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687aa",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "intro-logo",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "small": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "attribution": "<a href=\"http://theodi.org/\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968800",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687bd",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/ae443dbaacece3c2e56cef4aa80f718b15b36b58.jpg",
-      "small": "course/en/assets/ae443dbaacece3c2e56cef4aa80f718b15b36b58.jpg",
-      "attribution": "<a href=\"http://www.freepik.com/free-vector/security-icon_1086687.htm#term=risk&page=1&position=30\" target=\"_blank\">Photoroyalty / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968804",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687b0",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">Is a picture of a group of people a piece of personal data?</p>",
-    "displayTitle": "What is personal data?",
-    "title": "What is personal data?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Yes",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "No",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>&nbsp;</p><p dir=\"ltr\"><a href=\"http://ec.europa.eu/justice/data-protection/reform/files/regulation_oj_en.pdf#page=33\">Under the GDPR&nbsp;</a>&rsquo;personal data; means any information relating to an identified or identifiable person.&nbsp;</p><p>This covers any piece of information that can result in the identification of a person, either&nbsp;directly or indirectly.</p><p>Names are not needed to identify someone;&nbsp;you probably don&#39;t know the names of all your neighbours but you can identify them in a picture. A digital picture may also offer other information, such as location and timestamp.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>&nbsp;</p><p dir=\"ltr\"><a href=\"http://ec.europa.eu/justice/data-protection/reform/files/regulation_oj_en.pdf#page=33\">Under the GDPR&nbsp;</a>&rsquo;personal data; means any information relating to an identified or identifiable person.&nbsp;</p><p>This covers any piece of information that can result in the identification of a person, either&nbsp;directly or indirectly.</p><p>Names are not needed to identify someone;&nbsp;you probably don&#39;t know the names of all your neighbours but you can identify them in a picture. A digital picture may also offer other information, such as location and timestamp.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968803",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687af",
-    "_type": "component",
-    "body": "<p>Which are the following are examples of personal data covered by the GDPR?</p>",
-    "displayTitle": "What is personal data?",
-    "title": "What is personal data?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select three answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Name",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Online identifier (including IP address)",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Address",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Bus stop locations",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Book titles",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 3,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p><a href=\"https://gdpr-info.eu/art-4-gdpr/\" target=\"_blank\">Under the GDPR</a>, &#39;personal data&#39;&nbsp;means any information relating to an identified or identifiable&nbsp;person.</p><p>This covers any piece of information that can result in the identification of a person, either&nbsp;directly or indirectly.</p><p>This could be via any identifier,&nbsp;such as a name, email, address, phone number, an identification number, an online identifier (including IP address)&nbsp;or factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that person.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p><a href=\"https://gdpr-info.eu/art-4-gdpr/\" target=\"_blank\">Under the GDPR</a>, &#39;personal data&#39;&nbsp;means any information relating to an identified or identifiable&nbsp;person.</p><p>This covers any piece of information that can result in the identification of a person, either&nbsp;directly or indirectly.</p><p>This could be via any identifier,&nbsp;such as a name, email, address, phone number, an identification number, an online identifier (including IP address)&nbsp;or factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that person.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968802",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687ae",
-    "_type": "component",
-    "body": "<p>What is the definition of personal data in the GDPR?</p>",
-    "displayTitle": "What is personal data?",
-    "title": "What is personal data?",
+    "body": "<p><strong>What is the definition of personal data in the GDPR?</strong></p>",
+    "displayTitle": "Personal data at the ODI",
+    "title": "Personal data at the ODI",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -3148,139 +1259,13 @@
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687fe",
+    "_id": "5afea222b1e3a61805eb4af5",
     "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687bc",
+    "_parentId": "5afea220b1e3a61805eb4ac3",
     "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/0aff27048c7040bc8d25a3ef20f76f1798fc69a4.jpeg",
-      "small": "course/en/assets/0aff27048c7040bc8d25a3ef20f76f1798fc69a4.jpeg",
-      "attribution": "<a href=\"https://www.freepik.com/free-photo/silhouette-of-an-executive-holding-a-clipboard_864239.htm#term=boardroom&page=1\" target=\"_blank\">Pressfoto / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687eb",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687b8",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/ae443dbaacece3c2e56cef4aa80f718b15b36b58.jpg",
-      "small": "course/en/assets/ae443dbaacece3c2e56cef4aa80f718b15b36b58.jpg",
-      "attribution": "<a href=\"http://www.freepik.com/free-vector/security-icon_1086687.htm#term=risk&page=1&position=30\" target=\"_blank\">Photoroyalty / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5af583ea21da4842056715f7",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5af5839f21da4842056715f0",
-    "body": "<p>Under the GDPR, public authorities are required to appoint a&nbsp;Data Protection Officer or DPO.&nbsp;Our Data Protection Officer is Leigh Dodds.</p><p>Leigh and monitors internal compliance and acts as a contact point both internally and externally. Leigh can offer you:</p><ul><li>advice on data protection obligations</li><li>advice regarding Data Protection Impact Assessments (DPIAs)</li></ul><p>You can also seek advice from&nbsp;the rest of the policy team who will be able to share their knowledge.</p><p><a class=\"button\" href=\"#/id/5afa9cc920c1982f0596879e\">click here for link</a></p><p>&nbsp;</p>",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "5afa9cca20c1982f059687f3",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687aa",
-    "body": "<p>Test your knowledge of the GDPR with the 10 questions below.&nbsp;</p><p><strong>Warning</strong>: Do not leave your assessment session as you will not be able to resume your assessment.&nbsp;</p>",
-    "displayTitle": "Test your knowledge of the GDPR",
-    "title": "Test your knowledge of the GDPR",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "5afa9cca20c1982f059687f2",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687c6",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
-      "small": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=1095019&term=world%20map\" target=\"_blank\">starline / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687f1",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687c5",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
-      "small": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=1095019&term=world%20map\" target=\"_blank\">starline / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f05968801",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687ad",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "Which of the following are key objectives of the GDPR?",
-    "title": "Which of the following are key objectives of the GDPR?",
+    "body": "<p><strong>Which of the following are key objectives of the GDPR?</strong></p>",
+    "displayTitle": "What is the GDPR?",
+    "title": "What is the GDPR?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -3291,7 +1276,7 @@
     "instruction": "Select two answers then click 'submit'",
     "_items": [
       {
-        "text": "Make it simpler to work with personal data throughout the EU",
+        "text": "Make it simpler to work with personal data throughout the EU and increase opportunities for data-led innovation",
         "_shouldBeSelected": true,
         "feedback": ""
       },
@@ -3357,36 +1342,13 @@
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687f0",
+    "_id": "5afea222b1e3a61805eb4aed",
     "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687c4",
+    "_parentId": "5afea220b1e3a61805eb4ac1",
     "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
-      "small": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=1095019&term=world%20map\" target=\"_blank\">starline / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687ff",
-    "_layout": "left",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687bc",
-    "body": "<p>What is the role of the Data Protection Officer (DPO)?</p>",
-    "displayTitle": "GDPR-specific roles",
-    "title": "GDPR-specific roles",
+    "body": "<p><strong>Which of the following can be used as tools to help you perform&nbsp;&#39;privacy by design&#39;?</strong></p>",
+    "displayTitle": "Managing projects",
+    "title": "Managing projects",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -3394,21 +1356,21 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "Select your answer then click 'submit'",
+    "instruction": "Select an answer then click 'submit'",
     "_items": [
       {
-        "text": "DPOs monitor compliance, inform and advise on data protection obligations",
+        "text": "Data Protection Impact Assessment (DPIA)",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Data Ethics Canvas",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Both of the above",
         "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "DPOs are responsible for spotting data breaches",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "DPOs complete Data Protection Impact Assessments (DPIAs) for you",
-        "_shouldBeSelected": false,
         "feedback": ""
       }
     ],
@@ -3417,14 +1379,14 @@
     "_canShowFeedback": true,
     "_canShowMarking": true,
     "_shouldDisplayAttempts": false,
-    "_isRandom": true,
+    "_isRandom": false,
     "_recordInteraction": true,
     "_questionWeight": 1,
     "_selectable": 1,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>DPOs monitor internal compliance, inform and advise on data protection obligations, provide advice regarding Data Protection Impact Assessments (DPIAs) and act as a contact point for the organisation both internally and externally.</p>",
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>You can carry out a Data Protection Impact Assessment or refer to the Data Ethics Canvas for guidance. Don&#39;t forget you can also ask for help from our Data Protection Officer.</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>DPOs monitor internal compliance, inform and advise on data protection obligations, provide advice regarding Data Protection Impact Assessments (DPIAs) and act as a contact point for the organisation both internally and externally.</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p>You can use a Data Protection Impact Assessment or refer to the Data Ethics Canvas for guidance. Don&#39;t forget you can also ask for help from our Data Protection Officer.</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -3458,160 +1420,13 @@
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687ef",
+    "_id": "5afea225b1e3a61805eb4c4a",
     "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687c3",
     "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/9666374900330d96dad755893fb9770bc06bcd61.png",
-      "small": "course/en/assets/9666374900330d96dad755893fb9770bc06bcd61.png",
-      "attribution": "<a href=\"https://ico.org.uk/media/for-organisations/documents/1625136/good-and-bad-examples-of-privacy-notices.pdf\" target=\"_blank\">Open Data Institute</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687ee",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687c2",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/9666374900330d96dad755893fb9770bc06bcd61.png",
-      "small": "course/en/assets/9666374900330d96dad755893fb9770bc06bcd61.png",
-      "attribution": "<a href=\"https://ico.org.uk/media/for-organisations/documents/1625136/good-and-bad-examples-of-privacy-notices.pdf\" target=\"_blank\">Open Data Institute</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687df",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687ad",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "small": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=861919&term=people%20silhouette\" target=\"_blank\">Kjpargeter / Freepik / ODI</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687e8",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5afa9cca20c1982f059687a8",
-    "body": "<p>Which lawful basis is most likely to cover services offered by the FCO?</p>",
-    "displayTitle": "Establishing lawful basis for processing personal data",
-    "title": "Establishing lawful basis for processing personal data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "Consent",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Contract",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Public task",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>Most of what that FCO does falls under this legal basis. But we should be careful not to make it our default without considering the other bases first and whether additional ones also apply.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>Most of what that FCO does falls under this legal basis. But we should be careful not to make it our default without considering the other bases first and whether additional ones also apply.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afaac6b20c1982f05968a1f",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5afaac6520c1982f05968a1e",
-    "body": "<p>&#39;Privacy by design&#39; is a legal requirement. It requires organisations to consider people&rsquo;s privacy from the start of the design of any system or service and not just bolt it on at the end.</p><p>Where data processing is likely to result in a high risk to individuals, a <strong>Data Protection Impact Assessment (DPIA)</strong> is required under the GDPR.&nbsp;</p><p>A DPIA helps you to:</p><ul><li>describe the nature, scope, context and purposes of the processing</li><li>assess necessity, proportionality and compliance measures</li><li>identify and assess risks to individuals</li><li>identify any additional measures to mitigate those risks</li></ul><p>It&#39;s important that we publish out DPIAs as openly as possible.</p>",
-    "displayTitle": "",
-    "title": "DPIA",
+    "_parentId": "5afea222b1e3a61805eb4ada",
+    "body": "<p>Test your knowledge of the GDPR with the 8 questions below.&nbsp;</p><p><strong>Warning</strong>: Do not leave your assessment session as you will not be able to resume your assessment.&nbsp;</p>",
+    "displayTitle": "Test your knowledge of the GDPR",
+    "title": "Test your knowledge of the GDPR",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -3622,9 +1437,9 @@
     "instruction": ""
   },
   {
-    "_id": "5afa9cca20c1982f059687ea",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687b7",
+    "_id": "5afea222b1e3a61805eb4af2",
+    "_layout": "left",
+    "_parentId": "5afea220b1e3a61805eb4ac3",
     "_type": "component",
     "body": "",
     "displayTitle": "",
@@ -3634,53 +1449,7 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/31942170a9d65693d5222d1bfc11e88216ab9dd0.png",
-      "small": "course/en/assets/31942170a9d65693d5222d1bfc11e88216ab9dd0.png",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=1082297&term=checklist\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687e9",
-    "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687b6",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/e0a67603c92c095934fa00f0787306bac2d672e1.jpg",
-      "small": "course/en/assets/e0a67603c92c095934fa00f0787306bac2d672e1.jpg",
-      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">Open Data Institute</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687e7",
-    "_layout": "right",
-    "_parentId": "5afa9cc920c1982f059687a6",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "Component title",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
     "instruction": "",
     "_graphic": {
@@ -3691,9 +1460,9 @@
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687e6",
+    "_id": "5afea225b1e3a61805eb4c35",
     "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687b5",
+    "_parentId": "5afea222b1e3a61805eb4ad7",
     "_type": "component",
     "body": "",
     "displayTitle": "",
@@ -3703,264 +1472,66 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/39c343aca81e82ac6fbc3702050816c1269be49f.jpg",
-      "small": "course/en/assets/39c343aca81e82ac6fbc3702050816c1269be49f.jpg",
-      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">awesomecontent / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+      "large": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
+      "small": "course/en/assets/1fb4a3759a8a5087246e7f4aebcb78bfe8ca7e67.jpeg",
+      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=1095019&term=world%20map\" target=\"_blank\">starline / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687dd",
+    "_id": "5afea223b1e3a61805eb4afd",
     "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687ac",
+    "_parentId": "5afea221b1e3a61805eb4ac5",
     "_type": "component",
     "body": "",
-    "displayTitle": "What is the relationship between the GDPR and existing European Union data protection regulations?",
-    "title": "What is the relationship between the GDPR and existing European Union data protection regulations?",
+    "displayTitle": "",
+    "title": "Component title",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
-    "_component": "mcq",
+    "_component": "graphic",
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "The GDPR replaces current European Union regulations",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "The GDPR is an advisory on how to update regulations",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "The GDPR is a supplementary regulation",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p dir=\"ltr\">The GDPR replaces current European Union data protection regulations and is designed to provide a greater level of protection of fundamental rights and freedoms of individuals through accountability and transparency.&nbsp;</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p dir=\"ltr\">The GDPR replaces current European Union data protection regulations and is designed to provide a greater level of protection of fundamental rights and freedoms of individuals through accountability and transparency.&nbsp;</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8beca80eb92c0d4b5d0af6d638256fab25db9645.png",
+      "small": "course/en/assets/8beca80eb92c0d4b5d0af6d638256fab25db9645.png",
+      "attribution": "<a href=\"https://www.freepik.com/free-vector/computer-wallpaper-with-icons_1087359.htm#term=request&page=1&position=5\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687db",
-    "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687ab",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "What is the GDPR?",
-    "title": "What is the GDPR?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Select your answer then click 'submit'",
-    "_items": [
-      {
-        "text": "The GDPR provides standardisation of data protection laws across all European member states, making it easier for organisations to provide services to people in the EU",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "A optional European Directive that organisations are choosing to implement",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "A means to decrease the amount of spam emails and calls people receive",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p dir=\"ltr\">The GDPR provides standardisation of data protection laws across all European&nbsp;member states, making it easier for organisations to provide services to people in the EU.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p dir=\"ltr\">The GDPR provides standardisation of data protection laws across all European&nbsp;member states, making it easier for organisations to provide services to people in the EU.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
-    }
-  },
-  {
-    "_id": "5afa9cca20c1982f059687da",
+    "_id": "5afea222b1e3a61805eb4af6",
     "_layout": "right",
-    "_parentId": "5afa9cca20c1982f059687a9",
+    "_parentId": "5afea220b1e3a61805eb4ac4",
     "_type": "component",
-    "body": "<p>What is wrong with the privacy notice shown&nbsp;here?</p>",
-    "displayTitle": "Privacy notices",
-    "title": "Privacy notices",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
-    "_component": "mcq",
+    "_component": "graphic",
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "Select three answers then click 'submit'",
-    "_items": [
-      {
-        "text": "Confusing title and text in first paragraph",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Unclear what the data usage policy is",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Not clear who personal information will be shared with",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Not enough use of colour",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Too short",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 3,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>This is an example of a particularly bad privacy notice. There is a mix of confusing language, incorrect terminology and misleading information. Additionally the signature box is in the incorrect place. On top of everything outlined here, under the GDPR you must allow an electronic request for access to the data, and fulfil this with an electronic copy of the data, unless otherwise requested.&nbsp;</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>This is an example of a particularly bad privacy notice. There is a mix of confusing language, incorrect terminology and misleading information. Additionally the signature box is in the incorrect place. On top of everything outlined here, under the GDPR you must allow an electronic request for access to the data, and fulfil this with an electronic copy of the data, unless otherwise requested.&nbsp;</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons": {
-      "_submit": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_reset": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "",
-      "remainingAttemptText": ""
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
+      "small": "course/en/assets/c8983566fcee8bb217d473f37e4f7839c3fdf58e.png",
+      "attribution": "<a href=\"https://pixabay.com/en/social-media-faces-photo-album-550767/\" target=\"_blank\">geralt</a> <span class='assetLicence'>[CC0]</span>"
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687e5",
+    "_id": "5afea222b1e3a61805eb4aea",
     "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687b4",
+    "_parentId": "5afea220b1e3a61805eb4ac1",
     "_type": "component",
     "body": "",
     "displayTitle": "",
@@ -3970,20 +1541,37 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/39c343aca81e82ac6fbc3702050816c1269be49f.jpg",
-      "small": "course/en/assets/39c343aca81e82ac6fbc3702050816c1269be49f.jpg",
-      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">awesomecontent / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+      "large": "course/en/assets/724008f00c16619da741356bc607b081fcb67264.png",
+      "small": "course/en/assets/724008f00c16619da741356bc607b081fcb67264.png",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-189810137.html\" target=\"_blank\">Kritchanut</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
     }
   },
   {
-    "_id": "5afa9cca20c1982f059687e4",
+    "_id": "5afee2deb1e3a61805eb4f95",
     "_layout": "left",
-    "_parentId": "5afa9cca20c1982f059687b3",
+    "_type": "component",
+    "_parentId": "5afee269b1e3a61805eb4f94",
+    "body": "<p>In this module we have looked at what the the General Data Protection Regulation is and the effects it will have on both an individual and organisational level. We have also assessed the codes of best practice we can all follow in&nbsp;maintaining data security on a daily basis.</p><p>With a more robust compliancy framework,&nbsp;the GDPR aims to increase the protection of our fundamental rights but also promises to be a catalyst for data-led innovation.&nbsp;Here at the Open Data Institute we are excited about the increased&nbsp;opportunities to build trust with our clients, manage our data&nbsp;more efficiently and continue to inspire&nbsp;organisations to innovate with data.</p>",
+    "displayTitle": "Summary",
+    "title": "Summary",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5afea224b1e3a61805eb4bb1",
+    "_layout": "right",
+    "_parentId": "5afea221b1e3a61805eb4ace",
     "_type": "component",
     "body": "",
     "displayTitle": "",
@@ -3993,22 +1581,79 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "small": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
-      "attribution": "<a href=\"https://www.freepik.com/index.php?goto=74&idfoto=861919&term=people%20silhouette\" target=\"_blank\">Kjpargeter / Freepik / ODI</a> <span class='assetLicence'>[CC-BY]</span>"
+      "large": "course/en/assets/d1ef206854e8e694964194343e871fb1e3daad9f.jpg",
+      "small": "course/en/assets/d1ef206854e8e694964194343e871fb1e3daad9f.jpg",
+      "attribution": "<a href=\"http://www.freepik.com/free-vector/colorful-clock_794576.htm#term=clock&page=1&position=13\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
     }
+  },
+  {
+    "_id": "5afea223b1e3a61805eb4b62",
+    "_layout": "right",
+    "_parentId": "5afea221b1e3a61805eb4acb",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "assessment",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/ae443dbaacece3c2e56cef4aa80f718b15b36b58.jpg",
+      "small": "course/en/assets/ae443dbaacece3c2e56cef4aa80f718b15b36b58.jpg",
+      "attribution": "<a href=\"http://www.freepik.com/free-vector/security-icon_1086687.htm#term=risk&page=1&position\" target=\"_blank\">Photoroyalty / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5af583ea21da4842056715f7",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5af5839f21da4842056715f0",
+    "body": "<p>Under the GDPR, public authorities are required to appoint a&nbsp;Data Protection Officer (DPO). Although this is not a requirement for an organisation our size,&nbsp;we&#39;re aligning ourselves with&nbsp;larger organisations because of who we are.&nbsp;As the ODI we think we should measure ourselves against a high standard so we&#39;re taking on extra activities, including the appointment of our own DPO.&nbsp;</p><p>&nbsp;Our Data Protection Officer is Leigh Dodds.</p><p>Leigh monitors internal compliance and acts as a contact point both internally and externally. Leigh can offer you:</p><ul><li>guidance on data protection obligations</li><li>advice regarding Data Protection Impact Assessments (DPIAs)</li><li>insight into how we&#39;re conforming to the GDPR here at the ODI</li></ul><p>You can also seek advice from&nbsp;the rest of the policy team, as well as Debbie&nbsp;who will be able to share knowledge.</p>",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5af2daee0b08723b05bb1e5c",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5af2d9450b08723b05bb1e5a",
+    "body": "<p>The GDPR requires everyone to&nbsp;process personal data lawfully, fairly and in a transparent manner. There are six&nbsp;lawful bases outlined in the GDPR. At least one must apply. Without a lawful basis, it is illegal to collect and process&nbsp;personal data.&nbsp;</p><p>Want to know more? Visit the <a href=\"https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/\" target=\"_blank\">Information Commissioner&#39;s Office</a>.</p>",
+    "displayTitle": "Establishing a lawful basis for processing data",
+    "title": "Establishing a lawful basis for processing data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-eight",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
   },
   {
     "_id": "5af2d40a0b08723b05bb1e55",
     "_layout": "right",
     "_type": "component",
     "_parentId": "5af2d3a20b08723b05bb1e51",
-    "body": "<p>A number of our principals fall under the GDPR data lifecycle. Click on each pin to find out how.&nbsp;</p>",
+    "body": "<p>A number of our principles&nbsp;fall under the GDPR data lifecycle. Click on each pin to look at the type of questions we should be asking ourselves.&nbsp;</p><p><em>Image courtesy of <a href=\"https://www.nexor.com/wp/wp-content/uploads/2017/03/Enabling-Secure-Information-Exchange-in-Cloud-environments-white-paper-diagram-1.png\" target=\"_blank\">Nexor</a>&nbsp;</em></p>",
     "displayTitle": "",
     "title": "Component title",
     "_isAvailable": true,
@@ -4031,7 +1676,7 @@
     "_items": [
       {
         "title": "Create",
-        "body": "<p><em>Will&nbsp;the data be used to help deliver a service?</em></p><p><em>Will the data be&nbsp;linked with other information about the person?</em></p><p><em>Will the data be shared with other organisations or be used for research purposes?</em></p><p>Click to find out more under our following principal:</p><p><a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#3\"><strong>&#39;Organisations should be open with people about what personal data they are collecting&#39;&nbsp;</strong></a></p>",
+        "body": "<p><em>Will&nbsp;the data be used to help deliver a service?</em></p><p><em>Will the data be&nbsp;linked with other information about the person?</em></p><p><em>Will the data be shared with other organisations or be used for research purposes?</em></p><p>Click to find out more under our following principle:</p><p><a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#3\" target=\"_blank\"><strong>&#39;Organisations should be open with people about what personal data they are collecting&#39;&nbsp;</strong></a></p>",
         "strapline": "Create",
         "_graphic": {
           "src": "course/en/assets/647bc36a181b6051c7606c3f90d785a03671901c.png",
@@ -4045,7 +1690,7 @@
       },
       {
         "title": "Store",
-        "body": "<p><em>How is&nbsp;personal data secured&nbsp;to the extent that is possible without increasing the risk of security breaches?</em></p><p><strong>Click <a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#4\">here</a> to find out more about our fourth principal 4 &#39;Organisations should be open with people about the way personal data is secured&#39;</strong></p>",
+        "body": "<p><em>How is&nbsp;personal data secured&nbsp;to reduce the risk of security breaches?</em></p><p>Click to find out more under our&nbsp;following principle:</p><p><a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#4\" target=\"_blank\"><strong>&#39;Organisations should be open with people about the way personal data is secured&#39;</strong></a></p>",
         "strapline": "Store",
         "_graphic": {
           "src": "course/en/assets/647bc36a181b6051c7606c3f90d785a03671901c.png",
@@ -4059,7 +1704,7 @@
       },
       {
         "title": "Archive",
-        "body": "<p>How long do I need to keep this data for?</p>",
+        "body": "<p>How long do I need to keep this data for?</p><p>Is it necessary for me to keep the data for contractual reasons ie&nbsp;financial information or employee records?&nbsp;</p>",
         "strapline": "Archive",
         "_graphic": {
           "src": "course/en/assets/647bc36a181b6051c7606c3f90d785a03671901c.png",
@@ -4073,7 +1718,7 @@
       },
       {
         "title": "Share",
-        "body": "<p><em>What data is being shared,&nbsp;with whom; for what purpose; under what conditions; and for what return (eg financial return, or because it&rsquo;s a necessary part of providing a person with a service)?</em></p><p><strong>Click <a href=\"theodi.org/article/openness-principles-for-organisations-handling-personal-data/#3\">here</a> to find out more about our third principal &#39;Organisations should be open with people about the way personal data is shared</strong></p>",
+        "body": "<p><em>What data is being shared;&nbsp;with whom; for what purpose; under what conditions; and for what return (eg financial return, or because it&rsquo;s a necessary part of providing a person with a service)?</em></p><p>Click to find our more under our following principle:</p><p><a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#3\" target=\"_blank\"><strong>&#39;Organisations should be open with people about the way personal data is shared&#39;</strong></a></p>",
         "strapline": "Share",
         "_graphic": {
           "src": "course/en/assets/647bc36a181b6051c7606c3f90d785a03671901c.png",
@@ -4087,7 +1732,7 @@
       },
       {
         "title": "Use",
-        "body": "<p><em>How will the organisation use&nbsp;different types of data? Will it be used to deliver a service, conduct analysis or simply maintain records?</em></p><p><strong>Click <a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#2\">here</a> to find out more about our second&nbsp;principal <em>&#39;Organisations should be open with people about how they use personal data&#39;</em> and <a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#7\">here</a> for our seventh principal <em>&#39;Organisations should help people understand and influence how their data is collected and used&#39;</em></strong></p><ul></ul>",
+        "body": "<p><em>How will the organisation use&nbsp;different types of data? Will it be used to deliver a service, conduct analysis or simply maintain records?</em></p><p><em>Click to find out more under our following principles:</em></p><p><strong><a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#2\" target=\"_blank\"><em>&#39;Organisations should be open with people about how they use personal data&#39;</em></a> </strong></p><p><a href=\"http://theodi.org/article/openness-principles-for-organisations-handling-personal-data/#7\" target=\"_blank\"><strong><em>&#39;Organisations should help people understand and influence how their data is collected and used&#39;</em></strong></a></p><ul></ul>",
         "strapline": "Use",
         "_graphic": {
           "src": "course/en/assets/7f4051eb1770c3b0c66eebb44302b4b83e8a674b.png",
@@ -4114,5 +1759,244 @@
         "_top": 40
       }
     ]
+  },
+  {
+    "_id": "5afea224b1e3a61805eb4bd4",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5afea221b1e3a61805eb4ace",
+    "body": "<p><strong>At the ODI we use the project management tool Mavenlink to capture our weekly hours in a timesheet. Which of the six lawful bases for processing data does this fall under?</strong></p>",
+    "displayTitle": "Establishing a lawful basis for processing data",
+    "title": "Establishing a lawful basis for processing data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select your answer then click 'submit'",
+    "_items": [
+      {
+        "text": "Legal obligation",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Consent",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Contract",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Public tasks",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>All of our&nbsp;timesheets are processed under the basis of &#39;contract&#39;. In this case, the lawful basis of &lsquo;contract&rsquo; applies as the processing is necessary to comply with obligations under an existing contract the organisation has with us as&nbsp;individuals.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>All of our&nbsp;timesheets are processed under the basis of &#39;contract&#39;.&nbsp;In this case, the lawful basis of &lsquo;contract&rsquo; applies as the processing is necessary to comply with obligations under an existing contract the organisation has with us as&nbsp;individuals.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5afea225b1e3a61805eb4c3b",
+    "_layout": "right",
+    "_parentId": "5afea222b1e3a61805eb4ad7",
+    "_type": "component",
+    "body": "<p><strong>Under the GDPR, which of an individual&#39;s rights&nbsp;has the most opportunity for data-led innovation?</strong></p>",
+    "displayTitle": "Increased rights and innovation",
+    "title": "Increased rights and innovation",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select your answer then click 'submit'",
+    "_items": [
+      {
+        "text": "A right to rectification",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "A right to data portability",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "A right to access",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>The right to data portability opens up great opportunity for innovation and the creation of exciting new products and services.&nbsp;The re-use of data across other services may play a significant role in addressing the lack of competition in markets, for example,&nbsp;where users could be given wider choice of switching&nbsp;between providers.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>The right to data portability promises the most opportunity for innovation as it offers the potential to build more competitive markets. This in turn could lead&nbsp;to the creation of new and exciting products and services.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5afea222b1e3a61805eb4ae9",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5afea220b1e3a61805eb4ac0",
+    "body": "<p><strong>When undertaking a project, when&nbsp;should you consider &#39;privacy by design&#39;?</strong></p>",
+    "displayTitle": "Privacy by design",
+    "title": "Privacy by design",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select your answer then click 'submit'",
+    "_items": [
+      {
+        "text": "Whilst conducting a retrospective on the project",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Before the project kicks off",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "At the stage of the project where personal data is processed",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>&#39;Privacy by design&#39; should always be considered before the start of any project&nbsp;we undertake&nbsp;at the ODI. It won&#39;t always be necessary to carry out a Data Protection Impact Assessment (DPIA) as this only applies to processing personal data which could result in a higher risk to individuals. If in doubt, use the Data Ethics canvas to guide your decision or ask our Data Protection Officer, Leigh Dodds for help.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>&#39;Privacy by design&#39; should always be considered <strong>before the start</strong> of any project we undertake&nbsp;at the ODI. It won&#39;t always be necessary to carry out a Data Protection Impact Assessment (DPIA) as this only applies to processing which could result in a higher risk to individuals. If in doubt, use the Data Ethics canvas to guide your decision or ask our Data Protection Officer, Leigh Dodds for help.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
   }
 ]

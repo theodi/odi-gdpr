@@ -1,31 +1,6 @@
 {
   "_id": "course",
   "_globals": {
-    "_extensions": {
-      "_pageLevelProgress": {
-        "optionalContent": "Optional Content",
-        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
-        "pageLevelProgressMenuBar": "You have completed ",
-        "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
-        "pageLevelProgress": "Page sections"
-      },
-      "_aboutPage": {
-        "linkText": "About",
-        "titleText": "About",
-        "contactEMail": "training@theodi.org",
-        "contactLinkText": "Contact",
-        "aboutCredit": "",
-        "SL_text": "",
-        "SL_facebook": "",
-        "SL_flickr": "",
-        "SL_github": "",
-        "SL_scribd": "",
-        "SL_soundcloud": "",
-        "SL_twitter": "",
-        "SL_vimeo": "",
-        "SL_youtube": ""
-      }
-    },
     "_accessibility": {
       "accessibilityToggleTextOn": "Turn accessibility on?",
       "accessibilityToggleTextOff": "Turn accessibility off?",
@@ -63,20 +38,11 @@
       }
     },
     "_components": {
-      "_accordion": {
-        "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
-      },
-      "_slider": {
-        "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below."
-      },
       "_graphic": {
         "ariaRegion": ""
       },
       "_text": {
         "ariaRegion": ""
-      },
-      "_narrative": {
-        "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
       },
       "_hotgraphic": {
         "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
@@ -84,14 +50,51 @@
       },
       "_mcq": {
         "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+      },
+      "_narrative": {
+        "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+      },
+      "_accordion": {
+        "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+      }
+    },
+    "_extensions": {
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
+        "pageLevelProgressMenuBar": "You have completed ",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional Content"
+      },
+      "_aboutPage": {
+        "linkText": "About",
+        "titleText": "About",
+        "contactEMail": "training@theodi.org",
+        "contactLinkText": "Contact",
+        "aboutCredit": "",
+        "SL_text": "",
+        "SL_facebook": "",
+        "SL_flickr": "",
+        "SL_github": "",
+        "SL_scribd": "",
+        "SL_soundcloud": "",
+        "SL_twitter": "",
+        "SL_vimeo": "",
+        "SL_youtube": ""
       }
     }
   },
   "_start": {
-    "_isMenuDisabled": false,
-    "_force": false,
-    "_startIds": [],
-    "_isEnabled": false
+    "_isEnabled": true,
+    "_startIds": [
+      {
+        "_id": "5af2b28e0b08723b05bb1e26",
+        "_skipIfComplete": false,
+        "_className": ""
+      }
+    ],
+    "_force": true,
+    "_isMenuDisabled": true
   },
   "_type": "course",
   "_lockType": "",
@@ -121,14 +124,14 @@
       "buttonText": "Submit"
     }
   },
-  "_latestTrackingId": 51,
+  "_latestTrackingId": 30,
   "body": "",
   "displayTitle": "An introduction to the GDPR",
   "title": "An introduction to the GDPR",
   "_assessment": {
     "_postTotalScoreToLms": false,
     "_isPercentageBased": false,
-    "_scoreToPass": 60,
+    "_scoreToPass": 80,
     "_requireAssessmentPassed": false
   },
   "_pageLevelProgress": {
@@ -136,7 +139,32 @@
     "_showPageCompletion": true
   },
   "_aboutPage": {
-    "_items": []
+    "_items": [
+      {
+        "title": "ODI Training Team",
+        "description": "<p>Expert knowledge, content development and learning plans provided by the by <a href=\"https://theodi.org\">Open Data Institute</a> training team.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "title": "Adapt Learning",
+        "description": "<p>Open source learning platform developed by <a href=\"https://www.adaptlearning.org/\">Adapt learning</a>.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "course/en/assets/d83ce940ff76810967a9ec101f4cb6fefd54a4d0.png"
+        }
+      },
+      {
+        "title": "ICO",
+        "description": "<p>Information Commissioner&#39;s Office at <a href=\"https://ico.org.uk\">ICO</a></p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ]
   },
   "_FooterLink": {
     "_items": [

@@ -59,9 +59,9 @@
       "adapt-contrib-graphic",
       "adapt-contrib-accordion",
       "adapt-contrib-narrative",
+      "adapt-contrib-hotgraphic",
       "adapt-contrib-mcq",
-      "adapt-contrib-assessmentResults",
-      "adapt-contrib-hotgraphic"
+      "adapt-contrib-assessmentResults"
     ]
   }
 }

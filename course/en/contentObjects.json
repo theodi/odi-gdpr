@@ -16,21 +16,21 @@
     "body": "",
     "displayTitle": "GDPR Module",
     "title": "GDPR Module",
-    "_aboutPage": {
-      "_items": [],
-      "SL_text": "",
-      "aboutCredit": ""
-    },
     "_pageLevelProgress": {
-      "_showPageCompletion": true,
-      "_isEnabled": true
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    },
+    "_aboutPage": {
+      "aboutCredit": "",
+      "SL_text": "",
+      "_items": []
     },
     "_FooterLink": {
       "_items": []
     }
   },
   {
-    "_id": "5afa9cc920c1982f0596879e",
+    "_id": "5afea220b1e3a61805eb4aba",
     "_graphic": {
       "alt": "",
       "src": ""
@@ -44,16 +44,16 @@
     "linkText": "View",
     "_classes": "hidden",
     "body": "<p>Are you ready for the GDPR? Test your knowledge with this quiz, Get 8/10 to pass.</p>",
-    "displayTitle": "The GDPR: Test your knowledge",
-    "title": "The GDPR: Test your knowledge",
-    "_aboutPage": {
-      "_items": [],
-      "SL_text": "",
-      "aboutCredit": ""
-    },
+    "displayTitle": "The GDPR: Test your knowledge final",
+    "title": "The GDPR: Test your knowledge final",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": true
+    },
+    "_aboutPage": {
+      "aboutCredit": "",
+      "SL_text": "",
+      "_items": []
     },
     "_FooterLink": {
       "_items": []
