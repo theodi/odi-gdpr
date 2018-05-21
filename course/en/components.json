@@ -168,19 +168,19 @@
     "_bands": [
       {
         "_score": 0,
-        "feedback": "Could do better! You achieved a score of {{score}}/10.  The lessons would be really valuable to you. Perhaps think about going through the practical lessons before retaking the quiz!",
+        "feedback": "Could do better! You achieved a score of {{score}}/8.  The lessons would be really valuable to you. Perhaps think about going through the practical lessons before retaking the quiz!",
         "_allowRetry": true,
         "_classes": ""
       },
       {
         "_score": 50,
-        "feedback": "You got half or more right, achieving a score of {{score}}/10.  You have some good knowledge but need to brush up in a few areas. Take a look back at the practical lessons to help fill the gaps in your knowledge. ",
+        "feedback": "You got half or more right, achieving a score of {{score}}/8.  You have some good knowledge but need to brush up in a few areas. Take a look back at the practical lessons to help fill the gaps in your knowledge. ",
         "_allowRetry": true,
         "_classes": ""
       },
       {
         "_score": 80,
-        "feedback": "You passed, well done! ({{score}}/10).",
+        "feedback": "You passed, well done! ({{score}}/8).",
         "_allowRetry": true,
         "_classes": ""
       }
@@ -245,7 +245,7 @@
     "_items": [
       {
         "title": "Where does it apply?",
-        "body": "<p><strong>The GDPR applies to the processing of&nbsp;personal data about individuals in the European Union regardless of whether the organisation is located within the EU or not.&nbsp;</strong></p><p>Processing personal data covers the following, irrespective of how the data is collected:</p><p>collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.</p>",
+        "body": "<p>The GDPR applies to the processing of all personal data by organisations in the EU, regardless of whether the processing takes place in the EU or not.</p><p>The GDPR also applies to the processing of personal data about individuals who are in the EU by an organisation not established in the EU, if it&nbsp;offers goods or services within EU (irrespective of whether payment is required).</p><p>Processing personal data covers the following, irrespective of how the data is collected:</p><p>collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -306,7 +306,7 @@
     "_feedback": {
       "correct": "<p><strong>That&#39;s right!</strong></p><p>Any of the team members listed will be able to offer guidance on what to do next. Remember, it&#39;s important that you come forward if you think the GDPR has been breached as the company could be at risk of incurring significant&nbsp;non-compliance fines.&nbsp;</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>Any of the team members&nbsp;listed will be able to offer guidance on what to do next. Remember, it&#39;s important that you come forward if you think the GDPR has been breached as the company could be at risk of incurring significant non-compliance fines.&nbsp;</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p><strong>Any of the team members</strong>&nbsp;listed will be able to offer guidance on what to do next. Remember, it&#39;s important that you come forward if you think the GDPR has been breached as the company could be at risk of incurring significant non-compliance fines.&nbsp;</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -668,7 +668,7 @@
     "_layout": "right",
     "_type": "component",
     "_parentId": "5afaac6520c1982f05968a1e",
-    "body": "<p><strong>Natalia worked with us as&nbsp;a Delivery Manager at the ODI. With the introduction of the GDPR, her role would now be affected by the requirements of &#39;privacy by design&#39;.</strong></p>",
+    "body": "<p><strong>Natalia worked with us as&nbsp;a Delivery Manager at the ODI. With the introduction of the GDPR, her role would now be affected by the requirements of &#39;privacy by design&#39;. &#39;Privacy by design&#39;&nbsp;promotes privacy and data protection compliance from the start of each project and should be considered at all stages of development.</strong></p>",
     "displayTitle": "",
     "title": "Component title",
     "_isAvailable": true,
@@ -738,7 +738,7 @@
     "instruction": "Select three answers then click 'submit'",
     "_items": [
       {
-        "text": "Meta data from interviews carried out in research projects ie names of interviewees",
+        "text": "Metadata from interviews carried out in research projects ie names of interviewees",
         "_shouldBeSelected": true,
         "feedback": ""
       },
@@ -758,7 +758,7 @@
         "feedback": ""
       },
       {
-        "text": "Webpages viewed on work laptops",
+        "text": "Web pages viewed on work laptops",
         "_shouldBeSelected": false,
         "feedback": ""
       }
@@ -775,7 +775,7 @@
     "_feedback": {
       "correct": "<p><strong>That&#39;s right!</strong></p><p>The items you selected are all examples of the personal data we&nbsp;collect&nbsp;and store.&nbsp;Each type of data is&nbsp;processed under one of the six lawful bases for processing data.&nbsp;</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>Although we collect and store the name and email address of our eLearning users, we do not process any location data. Nor do we track any company devices using monitoring software.&nbsp;</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p>Although we collect and store the name and email address of our eLearning users, we <strong>do not</strong> process any location data. <strong>Nor </strong>do we track any company devices using monitoring software.&nbsp;</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -1203,7 +1203,7 @@
         "feedback": ""
       },
       {
-        "text": "Any data owned by an individual",
+        "text": "Any data about an individual",
         "_shouldBeSelected": false,
         "feedback": ""
       },
@@ -1264,8 +1264,8 @@
     "_parentId": "5afea220b1e3a61805eb4ac3",
     "_type": "component",
     "body": "<p><strong>Which of the following are key objectives of the GDPR?</strong></p>",
-    "displayTitle": "What is the GDPR?",
-    "title": "What is the GDPR?",
+    "displayTitle": "Objectives of the GDPR",
+    "title": "Objectives of the GDPR",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1384,9 +1384,9 @@
     "_questionWeight": 1,
     "_selectable": 1,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>You can carry out a Data Protection Impact Assessment or refer to the Data Ethics Canvas for guidance. Don&#39;t forget you can also ask for help from our Data Protection Officer.</p>",
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>You can carry out a Data Protection Impact Assessment or refer to the Data Ethics Canvas for guidance. Don&#39;t forget you can also ask for help from our Data Protection Officer, Leigh Dodds.</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>You can use a Data Protection Impact Assessment or refer to the Data Ethics Canvas for guidance. Don&#39;t forget you can also ask for help from our Data Protection Officer.</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p>You can use a Data Protection Impact Assessment <strong>or</strong> refer to the Data Ethics Canvas for guidance. Don&#39;t forget you can also ask for help from our Data Protection Officer, Leigh Dodds.</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -1556,7 +1556,7 @@
     "_layout": "left",
     "_type": "component",
     "_parentId": "5afee269b1e3a61805eb4f94",
-    "body": "<p>In this module we have looked at what the the General Data Protection Regulation is and the effects it will have on both an individual and organisational level. We have also assessed the codes of best practice we can all follow in&nbsp;maintaining data security on a daily basis.</p><p>With a more robust compliancy framework,&nbsp;the GDPR aims to increase the protection of our fundamental rights but also promises to be a catalyst for data-led innovation.&nbsp;Here at the Open Data Institute we are excited about the increased&nbsp;opportunities to build trust with our clients, manage our data&nbsp;more efficiently and continue to inspire&nbsp;organisations to innovate with data.</p>",
+    "body": "<p>In this module we have looked at what the&nbsp;General Data Protection Regulation is and the effects it will have on both an individual and organisational level. We have also assessed the codes of best practice which we can all follow to maintain data security on a daily basis.</p><p>With a more robust compliancy framework,&nbsp;the GDPR aims to increase the protection of our fundamental rights but also promises to be a catalyst for data-led innovation.&nbsp;Here at the Open Data Institute we are excited about the increased&nbsp;opportunities to build trust with our clients, manage our data&nbsp;more efficiently and continue to inspire&nbsp;organisations to innovate with data.</p>",
     "displayTitle": "Summary",
     "title": "Summary",
     "_isAvailable": true,
@@ -1789,12 +1789,12 @@
       },
       {
         "text": "Contract",
-        "_shouldBeSelected": true,
+        "_shouldBeSelected": false,
         "feedback": ""
       },
       {
-        "text": "Public tasks",
-        "_shouldBeSelected": false,
+        "text": "Legitimate interests",
+        "_shouldBeSelected": true,
         "feedback": ""
       }
     ],
@@ -1808,9 +1808,9 @@
     "_questionWeight": 1,
     "_selectable": 1,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>All of our&nbsp;timesheets are processed under the basis of &#39;contract&#39;. In this case, the lawful basis of &lsquo;contract&rsquo; applies as the processing is necessary to comply with obligations under an existing contract the organisation has with us as&nbsp;individuals.</p>",
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>All of our&nbsp;timesheets are processed under the basis of &#39;legitimate interests&#39;&nbsp;as the processing is necessary for ODI operations.</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>All of our&nbsp;timesheets are processed under the basis of &#39;contract&#39;.&nbsp;In this case, the lawful basis of &lsquo;contract&rsquo; applies as the processing is necessary to comply with obligations under an existing contract the organisation has with us as&nbsp;individuals.</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p>All of our&nbsp;timesheets are processed under the basis of <strong>&#39;legitimate interests&#39;</strong>&nbsp;as the processing is necessary for ODI operations.</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -1848,7 +1848,7 @@
     "_layout": "right",
     "_parentId": "5afea222b1e3a61805eb4ad7",
     "_type": "component",
-    "body": "<p><strong>Under the GDPR, which of an individual&#39;s rights&nbsp;has the most opportunity for data-led innovation?</strong></p>",
+    "body": "<p><strong>Under the GDPR, which of an individual&#39;s rights&nbsp;provides the most opportunity for data-led innovation?</strong></p>",
     "displayTitle": "Increased rights and innovation",
     "title": "Increased rights and innovation",
     "_isAvailable": true,
@@ -1888,7 +1888,7 @@
     "_feedback": {
       "correct": "<p><strong>That&#39;s right!</strong></p><p>The right to data portability opens up great opportunity for innovation and the creation of exciting new products and services.&nbsp;The re-use of data across other services may play a significant role in addressing the lack of competition in markets, for example,&nbsp;where users could be given wider choice of switching&nbsp;between providers.&nbsp;</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>The right to data portability promises the most opportunity for innovation as it offers the potential to build more competitive markets. This in turn could lead&nbsp;to the creation of new and exciting products and services.&nbsp;</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p>The right to <strong>data portability</strong> promises the most opportunity for innovation as it offers the potential to build more competitive markets. This in turn could lead&nbsp;to the creation of new and exciting products and services.&nbsp;</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -1926,7 +1926,7 @@
     "_layout": "left",
     "_type": "component",
     "_parentId": "5afea220b1e3a61805eb4ac0",
-    "body": "<p><strong>When undertaking a project, when&nbsp;should you consider &#39;privacy by design&#39;?</strong></p>",
+    "body": "<p><strong>When undertaking a project, at which point should you consider &#39;privacy by design&#39;?</strong></p>",
     "displayTitle": "Privacy by design",
     "title": "Privacy by design",
     "_isAvailable": true,
@@ -1944,13 +1944,18 @@
         "feedback": ""
       },
       {
-        "text": "Before the project kicks off",
-        "_shouldBeSelected": true,
+        "text": "Only before the project kicks off",
+        "_shouldBeSelected": false,
         "feedback": ""
       },
       {
-        "text": "At the stage of the project where personal data is processed",
+        "text": "Only at the stage of the project where personal data is processed",
         "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "At all stages throughout the project",
+        "_shouldBeSelected": true,
         "feedback": ""
       }
     ],
@@ -1964,9 +1969,9 @@
     "_questionWeight": 1,
     "_selectable": 1,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>&#39;Privacy by design&#39; should always be considered before the start of any project&nbsp;we undertake&nbsp;at the ODI. It won&#39;t always be necessary to carry out a Data Protection Impact Assessment (DPIA) as this only applies to processing personal data which could result in a higher risk to individuals. If in doubt, use the Data Ethics canvas to guide your decision or ask our Data Protection Officer, Leigh Dodds for help.</p>",
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>&#39;Privacy by design&#39; should be considered throughout the entire&nbsp;project.&nbsp;It won&#39;t always be necessary to carry out a Data Protection Impact Assessment (DPIA) as this only applies to processing personal data which could result in a higher risk to individuals. If in doubt, use the Data Ethics Canvas to guide your decision or ask our Data Protection Officer, Leigh Dodds for help.</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure about that?</strong></p><p>&#39;Privacy by design&#39; should always be considered <strong>before the start</strong> of any project we undertake&nbsp;at the ODI. It won&#39;t always be necessary to carry out a Data Protection Impact Assessment (DPIA) as this only applies to processing which could result in a higher risk to individuals. If in doubt, use the Data Ethics canvas to guide your decision or ask our Data Protection Officer, Leigh Dodds for help.</p>",
+        "final": "<p><strong>Are you sure about that?</strong></p><p>&#39;Privacy by design&#39; should be considered <strong>throughout the&nbsp;entire project</strong>. It won&#39;t always be necessary to carry out a Data Protection Impact Assessment (DPIA) as this only applies to processing which could result in a higher risk to individuals. If in doubt, use the Data Ethics Canvas to guide your decision or ask our Data Protection Officer, Leigh Dodds for help.</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {

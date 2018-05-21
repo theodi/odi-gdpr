@@ -75,18 +75,18 @@
     }
   },
   {
-    "_id": "5afea221b1e3a61805eb4ac5",
+    "_id": "5afea220b1e3a61805eb4ac4",
     "_parentId": "5afea220b1e3a61805eb4abb",
     "_type": "block",
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 6,
-    "_classes": "color-four",
+    "_classes": "inverted color-four",
     "body": "",
     "displayTitle": "",
-    "title": "2",
+    "title": "3",
     "_assessment": {
-      "_quizBankID": 2
+      "_quizBankID": 3
     }
   },
   {
@@ -105,18 +105,18 @@
     }
   },
   {
-    "_id": "5afea220b1e3a61805eb4ac4",
+    "_id": "5afea221b1e3a61805eb4ac5",
     "_parentId": "5afea220b1e3a61805eb4abb",
     "_type": "block",
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 8,
-    "_classes": "inverted color-four",
+    "_classes": "color-four",
     "body": "",
     "displayTitle": "",
-    "title": "3",
+    "title": "2",
     "_assessment": {
-      "_quizBankID": 3
+      "_quizBankID": 2
     }
   },
   {
