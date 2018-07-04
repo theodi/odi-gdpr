@@ -4,12 +4,11 @@
   "_questionWeight": 1,
   "_generateSourcemap": false,
   "_forceRouteLocking": true,
-  "__v": 0,
-  "_courseId": "5af2b2890b08723b05bb1e24",
-  "_drawer": {
-    "_duration": 400,
-    "_hideEasing": "easeInQuart",
-    "_showEasing": "easeOutQuart"
+  "_id": "5af2b2890b08723b05bb1e25",
+  "screenSize": {
+    "large": 1024,
+    "medium": 759,
+    "small": 519
   },
   "_accessibility": {
     "_isTextProcessorEnabled": false,
@@ -17,46 +16,48 @@
     "_isDisabledOnTouchDevices": false,
     "_isEnabled": false
   },
-  "screenSize": {
-    "large": 1024,
-    "medium": 759,
-    "small": 519
+  "_drawer": {
+    "_duration": 400,
+    "_hideEasing": "easeInQuart",
+    "_showEasing": "easeOutQuart"
   },
-  "_id": "5af2b2890b08723b05bb1e25",
-  "_languagePicker": {
-    "_accessibility": {
-      "_accessibilityInstructions": {
-        "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select.",
-        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
-        "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page."
-      },
-      "accessibilityToggleTextOff": "Turn accessibility off?",
-      "accessibilityToggleTextOn": "Turn accessibility on?"
-    },
-    "_languages": [],
-    "_classes": "",
-    "_languagePickerIconClass": "icon-language-2",
-    "_showOnCourseLoad": true,
-    "body": "",
-    "displayTitle": "",
-    "title": "",
-    "_isEnabled": false
-  },
+  "_courseId": "5af2b2890b08723b05bb1e24",
+  "__v": 0,
   "_tutor": {
     "_isEnabled": false
+  },
+  "_languagePicker": {
+    "_isEnabled": false,
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "_showOnCourseLoad": true,
+    "_languagePickerIconClass": "icon-language-2",
+    "_classes": "",
+    "_languages": [],
+    "_accessibility": {
+      "accessibilityToggleTextOn": "Turn accessibility on?",
+      "accessibilityToggleTextOff": "Turn accessibility off?",
+      "_accessibilityInstructions": {
+        "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+        "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+      }
+    }
   },
   "build": {
     "includes": [
       "adapt-theme-odi",
       "adapt-contrib-boxMenu",
-      "adapt-contrib-aboutPage",
-      "adapt-contrib-languagePicker",
-      "adapt-contrib-tutor",
-      "adapt-contrib-pageLevelProgress",
-      "adapt-contrib-assessment",
+      "adapt-odi-licence",
       "adapt-odi-footerLink",
-      "adapt-contrib-text",
+      "adapt-contrib-assessment",
+      "adapt-contrib-pageLevelProgress",
+      "adapt-contrib-tutor",
+      "adapt-contrib-languagePicker",
+      "adapt-contrib-aboutPage",
       "adapt-contrib-graphic",
+      "adapt-contrib-text",
       "adapt-contrib-accordion",
       "adapt-contrib-narrative",
       "adapt-contrib-hotgraphic",

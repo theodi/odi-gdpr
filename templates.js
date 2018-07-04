@@ -178,10 +178,6 @@ this["Handlebars"]["templates"]["assessmentResults"] = Handlebars.template({"1":
     + "    </div>\n</div>\n";
 },"usePartial":true,"useData":true});
 
-this["Handlebars"]["templates"]["blank"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<div class=\"blank-inner component-inner\"></div>\n";
-},"useData":true});
-
 this["Handlebars"]["templates"]["graphic"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     return " graphic-widget-attribution";
 },"3":function(container,depth0,helpers,partials,data) {

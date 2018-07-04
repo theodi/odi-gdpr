@@ -1,21 +1,27 @@
 [
   {
+    "title": "GDPR Module",
+    "displayTitle": "GDPR Module",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
     "_id": "5af2b28e0b08723b05bb1e26",
     "_type": "page",
     "_parentId": "course",
     "_graphic": {
-      "alt": "",
-      "src": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg"
+      "src": "course/en/assets/14bb855951dfe14c5a20171da1f99337cb140ca1.jpg",
+      "alt": ""
     },
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_lockedBy": [],
-    "duration": "",
-    "linkText": "View",
-    "_classes": "",
-    "body": "",
-    "displayTitle": "GDPR Module",
-    "title": "GDPR Module",
+    "_ODILicence": {
+      "_items": []
+    },
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": true
@@ -30,22 +36,28 @@
     }
   },
   {
+    "title": "The GDPR: Test your knowledge final",
+    "displayTitle": "The GDPR: Test your knowledge final",
+    "body": "<p>Are you ready for the GDPR? Test your knowledge with this quiz, Get 8/10 to pass.</p>",
+    "_classes": "hidden",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
     "_id": "5afea220b1e3a61805eb4aba",
     "_graphic": {
-      "alt": "",
-      "src": ""
+      "src": "",
+      "alt": ""
     },
     "_parentId": "course",
     "_type": "page",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_lockedBy": [],
-    "duration": "",
-    "linkText": "View",
-    "_classes": "hidden",
-    "body": "<p>Are you ready for the GDPR? Test your knowledge with this quiz, Get 8/10 to pass.</p>",
-    "displayTitle": "The GDPR: Test your knowledge final",
-    "title": "The GDPR: Test your knowledge final",
+    "_ODILicence": {
+      "_items": []
+    },
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": true

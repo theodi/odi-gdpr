@@ -1,4 +1,36 @@
 {
+  "title": "An introduction to the GDPR",
+  "displayTitle": "An introduction to the GDPR",
+  "body": "",
+  "description": "",
+  "_latestTrackingId": 29,
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Hide correct answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "remaining attempts",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_classes": "",
+  "_lockType": "",
   "_id": "course",
   "_globals": {
     "_accessibility": {
@@ -59,6 +91,10 @@
       }
     },
     "_extensions": {
+      "_ODILicence": {
+        "titleText": "Licence",
+        "linkText": "Licence"
+      },
       "_pageLevelProgress": {
         "pageLevelProgress": "Page sections",
         "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
@@ -73,70 +109,89 @@
         "contactLinkText": "Contact",
         "aboutCredit": "",
         "SL_text": "",
-        "SL_facebook": "",
-        "SL_flickr": "",
-        "SL_github": "",
-        "SL_scribd": "",
-        "SL_soundcloud": "",
-        "SL_twitter": "",
-        "SL_vimeo": "",
-        "SL_youtube": ""
+        "SL_facebook": "MyODIHQ",
+        "SL_flickr": "ukodi",
+        "SL_github": "theodi",
+        "SL_scribd": "OpenDataInstitute",
+        "SL_soundcloud": "theodi",
+        "SL_twitter": "ODIHQ",
+        "SL_vimeo": "theodiuk",
+        "SL_youtube": "OpenDataInstituteUK"
       }
     }
   },
   "_start": {
-    "_isEnabled": true,
+    "_isMenuDisabled": true,
+    "_force": true,
     "_startIds": [
       {
-        "_id": "5af2b28e0b08723b05bb1e26",
+        "_className": "",
         "_skipIfComplete": false,
-        "_className": ""
+        "_id": "5af2b28e0b08723b05bb1e26"
       }
     ],
-    "_force": true,
-    "_isMenuDisabled": true
+    "_isEnabled": true
   },
   "_type": "course",
-  "_lockType": "",
-  "_classes": "",
-  "_buttons": {
-    "disabledAriaLabel": "This button is disabled at the moment",
-    "remainingAttemptText": "final attempt",
-    "remainingAttemptsText": "remaining attempts",
-    "_showFeedback": {
-      "ariaLabel": "Show feedback",
-      "buttonText": "Show feedback"
-    },
-    "_hideCorrectAnswer": {
-      "ariaLabel": "Hide correct answer",
-      "buttonText": "Hide correct answer"
-    },
-    "_showCorrectAnswer": {
-      "ariaLabel": "Show correct answer",
-      "buttonText": "Show correct answer"
-    },
-    "_reset": {
-      "ariaLabel": "Reset",
-      "buttonText": "Reset"
-    },
-    "_submit": {
-      "ariaLabel": "Submit",
-      "buttonText": "Submit"
-    }
+  "_FooterLink": {
+    "_items": [
+      {
+        "title": "Privacy policy",
+        "link": "https://theodi.org/about-the-odi/legal/privacy-policy"
+      }
+    ]
   },
-  "_latestTrackingId": 30,
-  "body": "",
-  "displayTitle": "An introduction to the GDPR",
-  "title": "An introduction to the GDPR",
-  "_assessment": {
-    "_postTotalScoreToLms": false,
-    "_isPercentageBased": false,
-    "_scoreToPass": 80,
-    "_requireAssessmentPassed": false
-  },
-  "_pageLevelProgress": {
-    "_isEnabled": true,
-    "_showPageCompletion": true
+  "_ODILicence": {
+    "_items": [
+      {
+        "_graphic": {
+          "src": "https://licensebuttons.net/l/by-sa/4.0/88x31.png",
+          "alt": ""
+        },
+        "description": "<p>An introduction to the GDPR&nbsp;by&nbsp;<a href=\"https://theodi.org\" target=\"_blank\">Open Data Institute</a> is licensed under a&nbsp;<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">Creative Commons Attribution-ShareAlike 4.0 International Licence</a></p>",
+        "title": ""
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>Suitable attribution should follow the attribution best practice guidelines as outlined&nbsp;<a href=\"https://wiki.creativecommons.org/wiki/Best_practices_for_attribution\">here</a>.</p>",
+        "title": "Attribution requirements"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>The content, including text and structure is available for you to use, reuse and share (including for commercial purposes) subject to the conditions of the licence above.</p>",
+        "title": "Content usage"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>This licence does not cover:</p><ul dir=\"ltr\"><li>Logos and trade marks such as those belonging to the Open Data Institute</li><li>Third party content (such as images)</li><li>Any other content as outlined under &#39;About&#39;</li></ul>",
+        "title": "Exclusions"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider and/or Licensor endorse you or your use of the Information.</p>",
+        "title": "Non-endorsement"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>The Information is licensed &#39;as is&#39;. Neither the Open Data Institute nor the ODEdu project are&nbsp;not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information.</p>",
+        "title": "No warranty"
+      }
+    ]
   },
   "_aboutPage": {
     "_items": [
@@ -166,12 +221,14 @@
       }
     ]
   },
-  "_FooterLink": {
-    "_items": [
-      {
-        "title": "Privacy policy",
-        "link": "https://theodi.org/about-the-odi/legal/privacy-policy"
-      }
-    ]
+  "_pageLevelProgress": {
+    "_showPageCompletion": true,
+    "_isEnabled": true
+  },
+  "_assessment": {
+    "_requireAssessmentPassed": false,
+    "_scoreToPass": 80,
+    "_isPercentageBased": false,
+    "_postTotalScoreToLms": false
   }
 }
