@@ -126,15 +126,17 @@
     },
     "_assessment": {
       "_isEnabled": true,
-      "_id": "assessment",
+      "_id": "gdpr-assessment",
       "_attempts": -1,
       "_isPercentageBased": true,
       "_scoreToPass": 80,
+      "_correctToPass": 60,
       "_includeInTotalScore": true,
       "_assessmentWeight": 1,
       "_suppressMarking": false,
       "_isResetOnRevisit": false,
       "_allowResetIfPassed": false,
+      "_scrollToOnReset": false,
       "_randomisation": {
         "_isEnabled": false,
         "_blockCount": 1
@@ -149,6 +151,22 @@
         "_canShowFeedback": true,
         "_canShowMarking": true,
         "_canShowModelAnswer": true
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_odi-generic": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
       }
     }
   },

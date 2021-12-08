@@ -220,7 +220,7 @@
     "_isVisibleBeforeCompletion": true,
     "_setCompletionOn": "inview",
     "_resetType": "inherit",
-    "_assessmentId": "assessment",
+    "_assessmentId": "gdpr-assessment",
     "_retry": {
       "button": "Retry Assessment",
       "feedback": "",
@@ -1103,7 +1103,7 @@
   },
   {
     "_component": "graphic",
-    "_classes": "intro-logo",
+    "_classes": "",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
@@ -1364,9 +1364,9 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/f9b69257e77e184568aa6e5351542ad1c3bfb4d0.jpg",
-      "small": "course/en/assets/f9b69257e77e184568aa6e5351542ad1c3bfb4d0.jpg",
-      "attribution": "<a href=\"https://pbs.twimg.com/profile_images/986316417631948801/tTdXkR8Q_400x400.jpg\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>"
+      "large": "course/en/assets/8d88c11e683384065bd162128b346b89a1006858.png",
+      "small": "course/en/assets/8d88c11e683384065bd162128b346b89a1006858.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">Open Data Institute</a> <span class='assetLicence'>[All rights reserved]</span>"
     }
   },
   {
@@ -1469,53 +1469,16 @@
     "_layout": "right",
     "_parentId": "5f37ae9e8d82e7005e43dc12",
     "_type": "component",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    "_buttons": {
-      "remainingAttemptText": "",
-      "remainingAttemptsText": "",
-      "_showFeedback": {
-        "ariaLabel": "",
-        "buttonText": ""
-      },
-      "_hideCorrectAnswer": {
-        "ariaLabel": "",
-        "buttonText": ""
-      },
-      "_showCorrectAnswer": {
-        "ariaLabel": "",
-        "buttonText": ""
-      },
-      "_reset": {
-        "ariaLabel": "",
-        "buttonText": ""
-      },
-      "_submit": {
-        "ariaLabel": "",
-        "buttonText": ""
-      }
-    },
-    "_feedback": {
-      "_partlyCorrect": {
-        "notFinal": "",
-        "final": ""
-      },
-      "_incorrect": {
-        "notFinal": "",
-        "final": "<p><strong>Are you sure about that?</strong></p><p dir=\"ltr\">The GDPR provides standardisation of data protection laws across all European member states, making it easier for organisations to provide services to people across the EU. It also provides a clearer set of rights to individuals.</p><p dir=\"ltr\">While penalties do increase, income generation is not a key objective of the GDPR.&nbsp;</p>"
-      },
-      "correct": "<p><strong>That&#39;s right!</strong></p><p dir=\"ltr\">The GDPR provides standardisation of data protection laws across all European member states, making it easier for organisations to provide services to people across the EU. It also provides a clearer set of rights to individuals.</p><p dir=\"ltr\">While penalties do increase, income generation is not a key objective of the GDPR.&nbsp;</p>"
-    },
-    "_selectable": 2,
-    "_questionWeight": 1,
-    "_recordInteraction": true,
-    "_isRandom": true,
-    "_shouldDisplayAttempts": false,
-    "_canShowMarking": true,
-    "_canShowFeedback": true,
-    "_canShowModelAnswer": true,
-    "_attempts": 1,
+    "instruction": "Select two answers then click 'submit'",
     "_items": [
       {
         "feedback": "",
@@ -1538,7 +1501,52 @@
         "text": "Make it harder for businesses to work with personal data"
       }
     ],
-    "instruction": "Select two answers then click 'submit'"
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 2,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>That's right!</strong></p><p dir=\"ltr\">The GDPR provides standardisation of data protection laws across all European member states, making it easier for organisations to provide services to people across the EU. It also provides a clearer set of rights to individuals.</p><p dir=\"ltr\">While penalties do increase, income generation is not a key objective of the GDPR.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p dir=\"ltr\">The GDPR provides standardisation of data protection laws across all European member states, making it easier for organisations to provide services to people across the EU. It also provides a clearer set of rights to individuals.</p><p dir=\"ltr\">While penalties do increase, income generation is not a key objective of the GDPR.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
   },
   {
     "_component": "mcq",
@@ -1875,13 +1883,19 @@
     "_disableAccessibilityState": false,
     "title": "Our Data Protection Officer",
     "displayTitle": "Our Data Protection Officer",
-    "body": "<p>Under the GDPR, public authorities are required to appoint a&nbsp;Data Protection Officer (DPO). Although this is not a requirement for an organisation our size,&nbsp;we&#39;re aligning ourselves with&nbsp;larger organisations because of who we are.&nbsp;As the ODI we think we should measure ourselves against a high standard so we&#39;re taking on extra activities, including the appointment of our own DPO.&nbsp;</p><p>Our Data Protection Officer is Leigh Dodds.</p><p>Leigh monitors internal compliance and acts as a contact point both internally and externally. Leigh can offer you:</p><ul><li>guidance on data protection obligations</li><li>advice regarding Data Protection Impact Assessments (DPIAs)</li><li>insight into how we&#39;re conforming to the GDPR here at the ODI</li></ul><p>You can also seek advice from&nbsp;the rest of the policy team, as well as Debbie&nbsp;who will be able to share knowledge.</p>",
+    "body": "<p>Under the GDPR, public authorities are required to appoint a&nbsp;Data Protection Officer (DPO). Although this is not a requirement for an organisation our size,&nbsp;we're aligning ourselves with&nbsp;larger organisations because of who we are.&nbsp;As the ODI we think we should measure ourselves against a high standard so we're taking on extra activities, including the appointment of our own DPO.&nbsp;</p><p>Our Data Protection Officer is Lisa Allen.</p><p>Lisa monitors internal compliance and acts as a contact point both internally and externally. Lisa can offer you:</p><ul><li>guidance on data protection obligations</li><li>advice regarding Data Protection Impact Assessments (DPIAs)</li><li>insight into how we're conforming to the GDPR here at the ODI</li></ul><p>You can also seek advice from others including Deborah, Ed, Dave, Olivier and Phil.&nbsp;</p>",
     "_id": "5f37aea08d82e7005e43dc92",
     "_layout": "left",
     "_type": "component",
     "_parentId": "5f37ae9e8d82e7005e43dc2a",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
     "instruction": ""
   },
